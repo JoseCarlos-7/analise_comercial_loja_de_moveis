@@ -1,0 +1,19 @@
+﻿produto_id,produto,linha,categoria,preco_base,custo_unitario
+P001,Sofa 3 Lugares,Moveis Domesticos,Estofados,1850,1100
+P002,Mesa de Jantar 6 Lugares,Moveis Domesticos,Mesas,2200,1250
+P003,Cama Queen,Moveis Domesticos,Dormitorio,2600,1500
+P004,Guarda-Roupa 6 Portas,Moveis Domesticos,Dormitorio,3100,1850
+P005,Rack para TV,Moveis Domesticos,Sala,1250,720
+P006,Poltrona,Moveis Domesticos,Estofados,980,520
+P007,Escrivaninha,Moveis Domesticos,Escritorio,1350,760
+P008,Cadeira Ergonomica,Moveis Comerciais,Cadeiras,1150,640
+P009,Mesa de Escritorio,Moveis Comerciais,Mesas,1750,980
+P010,Armario Corporativo,Moveis Comerciais,Armazenagem,2450,1400
+P011,Balcao de Atendimento,Moveis Comerciais,Atendimento,3200,1850
+P012,Estacao de Trabalho 4P,Moveis Comerciais,Estacoes,4800,2850
+P013,Mesa de Reuniao,Moveis Comerciais,Mesas,3900,2200
+P014,Projeto Residencial,Servicos sob Demanda,Projetos,5200,2100
+P015,Projeto Comercial,Servicos sob Demanda,Projetos,8500,3500
+P016,Projeto Corporativo,Servicos sob Demanda,Projetos,12500,5200
+P017,Consultoria de Layout,Servicos sob Demanda,Consultoria,2800,900
+P018,Projeto de Marcenaria,Servicos sob Demanda,Projetos,6800,2600

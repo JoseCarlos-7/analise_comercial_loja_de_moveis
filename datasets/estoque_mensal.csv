@@ -1,0 +1,595 @@
+﻿data_snapshot,produto_id,linha,categoria,quantidade_estoque,valor_estoque
+2024-01-01,P001,Moveis Domesticos,Estofados,28,30800.0
+2024-01-01,P002,Moveis Domesticos,Mesas,24,30000.0
+2024-01-01,P003,Moveis Domesticos,Dormitorio,17,25500.0
+2024-01-01,P004,Moveis Domesticos,Dormitorio,8,14800.0
+2024-01-01,P005,Moveis Domesticos,Sala,15,10800.0
+2024-01-01,P006,Moveis Domesticos,Estofados,27,14040.0
+2024-01-01,P007,Moveis Domesticos,Escritorio,20,15200.0
+2024-01-01,P008,Moveis Comerciais,Cadeiras,8,5120.0
+2024-01-01,P009,Moveis Comerciais,Mesas,12,11760.0
+2024-01-01,P010,Moveis Comerciais,Armazenagem,17,23800.0
+2024-01-01,P011,Moveis Comerciais,Atendimento,6,11100.0
+2024-01-01,P012,Moveis Comerciais,Estacoes,19,54150.0
+2024-01-01,P013,Moveis Comerciais,Mesas,32,70400.0
+2024-01-01,P014,Servicos sob Demanda,Projetos,2,4200.0
+2024-01-01,P015,Servicos sob Demanda,Projetos,2,7000.0
+2024-01-01,P016,Servicos sob Demanda,Projetos,2,10400.0
+2024-01-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-01-01,P018,Servicos sob Demanda,Projetos,1,2600.0
+2024-02-01,P001,Moveis Domesticos,Estofados,11,12100.0
+2024-02-01,P002,Moveis Domesticos,Mesas,25,31250.0
+2024-02-01,P003,Moveis Domesticos,Dormitorio,6,9000.0
+2024-02-01,P004,Moveis Domesticos,Dormitorio,25,46250.0
+2024-02-01,P005,Moveis Domesticos,Sala,16,11520.0
+2024-02-01,P006,Moveis Domesticos,Estofados,10,5200.0
+2024-02-01,P007,Moveis Domesticos,Escritorio,11,8360.0
+2024-02-01,P008,Moveis Comerciais,Cadeiras,24,15360.0
+2024-02-01,P009,Moveis Comerciais,Mesas,19,18620.0
+2024-02-01,P010,Moveis Comerciais,Armazenagem,31,43400.0
+2024-02-01,P011,Moveis Comerciais,Atendimento,34,62900.0
+2024-02-01,P012,Moveis Comerciais,Estacoes,21,59850.0
+2024-02-01,P013,Moveis Comerciais,Mesas,25,55000.0
+2024-02-01,P014,Servicos sob Demanda,Projetos,1,2100.0
+2024-02-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-02-01,P016,Servicos sob Demanda,Projetos,1,5200.0
+2024-02-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-02-01,P018,Servicos sob Demanda,Projetos,2,5200.0
+2024-03-01,P001,Moveis Domesticos,Estofados,25,27500.0
+2024-03-01,P002,Moveis Domesticos,Mesas,11,13750.0
+2024-03-01,P003,Moveis Domesticos,Dormitorio,5,7500.0
+2024-03-01,P004,Moveis Domesticos,Dormitorio,9,16650.0
+2024-03-01,P005,Moveis Domesticos,Sala,26,18720.0
+2024-03-01,P006,Moveis Domesticos,Estofados,24,12480.0
+2024-03-01,P007,Moveis Domesticos,Escritorio,24,18240.0
+2024-03-01,P008,Moveis Comerciais,Cadeiras,6,3840.0
+2024-03-01,P009,Moveis Comerciais,Mesas,5,4900.0
+2024-03-01,P010,Moveis Comerciais,Armazenagem,29,40600.0
+2024-03-01,P011,Moveis Comerciais,Atendimento,18,33300.0
+2024-03-01,P012,Moveis Comerciais,Estacoes,14,39900.0
+2024-03-01,P013,Moveis Comerciais,Mesas,7,15400.0
+2024-03-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2024-03-01,P015,Servicos sob Demanda,Projetos,2,7000.0
+2024-03-01,P016,Servicos sob Demanda,Projetos,2,10400.0
+2024-03-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-03-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2024-04-01,P001,Moveis Domesticos,Estofados,14,15400.0
+2024-04-01,P002,Moveis Domesticos,Mesas,17,21250.0
+2024-04-01,P003,Moveis Domesticos,Dormitorio,30,45000.0
+2024-04-01,P004,Moveis Domesticos,Dormitorio,17,31450.0
+2024-04-01,P005,Moveis Domesticos,Sala,28,20160.0
+2024-04-01,P006,Moveis Domesticos,Estofados,29,15080.0
+2024-04-01,P007,Moveis Domesticos,Escritorio,22,16720.0
+2024-04-01,P008,Moveis Comerciais,Cadeiras,12,7680.0
+2024-04-01,P009,Moveis Comerciais,Mesas,34,33320.0
+2024-04-01,P010,Moveis Comerciais,Armazenagem,23,32200.0
+2024-04-01,P011,Moveis Comerciais,Atendimento,25,46250.0
+2024-04-01,P012,Moveis Comerciais,Estacoes,34,96900.0
+2024-04-01,P013,Moveis Comerciais,Mesas,23,50600.0
+2024-04-01,P014,Servicos sob Demanda,Projetos,1,2100.0
+2024-04-01,P015,Servicos sob Demanda,Projetos,2,7000.0
+2024-04-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-04-01,P017,Servicos sob Demanda,Consultoria,2,1800.0
+2024-04-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2024-05-01,P001,Moveis Domesticos,Estofados,34,37400.0
+2024-05-01,P002,Moveis Domesticos,Mesas,21,26250.0
+2024-05-01,P003,Moveis Domesticos,Dormitorio,31,46500.0
+2024-05-01,P004,Moveis Domesticos,Dormitorio,14,25900.0
+2024-05-01,P005,Moveis Domesticos,Sala,27,19440.0
+2024-05-01,P006,Moveis Domesticos,Estofados,20,10400.0
+2024-05-01,P007,Moveis Domesticos,Escritorio,24,18240.0
+2024-05-01,P008,Moveis Comerciais,Cadeiras,21,13440.0
+2024-05-01,P009,Moveis Comerciais,Mesas,34,33320.0
+2024-05-01,P010,Moveis Comerciais,Armazenagem,27,37800.0
+2024-05-01,P011,Moveis Comerciais,Atendimento,12,22200.0
+2024-05-01,P012,Moveis Comerciais,Estacoes,23,65550.0
+2024-05-01,P013,Moveis Comerciais,Mesas,15,33000.0
+2024-05-01,P014,Servicos sob Demanda,Projetos,2,4200.0
+2024-05-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-05-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-05-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-05-01,P018,Servicos sob Demanda,Projetos,1,2600.0
+2024-06-01,P001,Moveis Domesticos,Estofados,19,20900.0
+2024-06-01,P002,Moveis Domesticos,Mesas,29,36250.0
+2024-06-01,P003,Moveis Domesticos,Dormitorio,24,36000.0
+2024-06-01,P004,Moveis Domesticos,Dormitorio,27,49950.0
+2024-06-01,P005,Moveis Domesticos,Sala,9,6480.0
+2024-06-01,P006,Moveis Domesticos,Estofados,10,5200.0
+2024-06-01,P007,Moveis Domesticos,Escritorio,6,4560.0
+2024-06-01,P008,Moveis Comerciais,Cadeiras,6,3840.0
+2024-06-01,P009,Moveis Comerciais,Mesas,9,8820.0
+2024-06-01,P010,Moveis Comerciais,Armazenagem,24,33600.0
+2024-06-01,P011,Moveis Comerciais,Atendimento,18,33300.0
+2024-06-01,P012,Moveis Comerciais,Estacoes,18,51300.0
+2024-06-01,P013,Moveis Comerciais,Mesas,27,59400.0
+2024-06-01,P014,Servicos sob Demanda,Projetos,1,2100.0
+2024-06-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2024-06-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-06-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-06-01,P018,Servicos sob Demanda,Projetos,1,2600.0
+2024-07-01,P001,Moveis Domesticos,Estofados,31,34100.0
+2024-07-01,P002,Moveis Domesticos,Mesas,10,12500.0
+2024-07-01,P003,Moveis Domesticos,Dormitorio,27,40500.0
+2024-07-01,P004,Moveis Domesticos,Dormitorio,6,11100.0
+2024-07-01,P005,Moveis Domesticos,Sala,8,5760.0
+2024-07-01,P006,Moveis Domesticos,Estofados,16,8320.0
+2024-07-01,P007,Moveis Domesticos,Escritorio,24,18240.0
+2024-07-01,P008,Moveis Comerciais,Cadeiras,29,18560.0
+2024-07-01,P009,Moveis Comerciais,Mesas,27,26460.0
+2024-07-01,P010,Moveis Comerciais,Armazenagem,31,43400.0
+2024-07-01,P011,Moveis Comerciais,Atendimento,18,33300.0
+2024-07-01,P012,Moveis Comerciais,Estacoes,12,34200.0
+2024-07-01,P013,Moveis Comerciais,Mesas,17,37400.0
+2024-07-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2024-07-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-07-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-07-01,P017,Servicos sob Demanda,Consultoria,2,1800.0
+2024-07-01,P018,Servicos sob Demanda,Projetos,2,5200.0
+2024-08-01,P001,Moveis Domesticos,Estofados,7,7700.0
+2024-08-01,P002,Moveis Domesticos,Mesas,6,7500.0
+2024-08-01,P003,Moveis Domesticos,Dormitorio,29,43500.0
+2024-08-01,P004,Moveis Domesticos,Dormitorio,33,61050.0
+2024-08-01,P005,Moveis Domesticos,Sala,5,3600.0
+2024-08-01,P006,Moveis Domesticos,Estofados,24,12480.0
+2024-08-01,P007,Moveis Domesticos,Escritorio,17,12920.0
+2024-08-01,P008,Moveis Comerciais,Cadeiras,28,17920.0
+2024-08-01,P009,Moveis Comerciais,Mesas,20,19600.0
+2024-08-01,P010,Moveis Comerciais,Armazenagem,11,15400.0
+2024-08-01,P011,Moveis Comerciais,Atendimento,13,24050.0
+2024-08-01,P012,Moveis Comerciais,Estacoes,23,65550.0
+2024-08-01,P013,Moveis Comerciais,Mesas,12,26400.0
+2024-08-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2024-08-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-08-01,P016,Servicos sob Demanda,Projetos,1,5200.0
+2024-08-01,P017,Servicos sob Demanda,Consultoria,2,1800.0
+2024-08-01,P018,Servicos sob Demanda,Projetos,1,2600.0
+2024-09-01,P001,Moveis Domesticos,Estofados,17,18700.0
+2024-09-01,P002,Moveis Domesticos,Mesas,29,36250.0
+2024-09-01,P003,Moveis Domesticos,Dormitorio,18,27000.0
+2024-09-01,P004,Moveis Domesticos,Dormitorio,24,44400.0
+2024-09-01,P005,Moveis Domesticos,Sala,32,23040.0
+2024-09-01,P006,Moveis Domesticos,Estofados,34,17680.0
+2024-09-01,P007,Moveis Domesticos,Escritorio,18,13680.0
+2024-09-01,P008,Moveis Comerciais,Cadeiras,19,12160.0
+2024-09-01,P009,Moveis Comerciais,Mesas,31,30380.0
+2024-09-01,P010,Moveis Comerciais,Armazenagem,21,29400.0
+2024-09-01,P011,Moveis Comerciais,Atendimento,27,49950.0
+2024-09-01,P012,Moveis Comerciais,Estacoes,7,19950.0
+2024-09-01,P013,Moveis Comerciais,Mesas,29,63800.0
+2024-09-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2024-09-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-09-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-09-01,P017,Servicos sob Demanda,Consultoria,2,1800.0
+2024-09-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2024-10-01,P001,Moveis Domesticos,Estofados,21,23100.0
+2024-10-01,P002,Moveis Domesticos,Mesas,9,11250.0
+2024-10-01,P003,Moveis Domesticos,Dormitorio,5,7500.0
+2024-10-01,P004,Moveis Domesticos,Dormitorio,12,22200.0
+2024-10-01,P005,Moveis Domesticos,Sala,7,5040.0
+2024-10-01,P006,Moveis Domesticos,Estofados,13,6760.0
+2024-10-01,P007,Moveis Domesticos,Escritorio,9,6840.0
+2024-10-01,P008,Moveis Comerciais,Cadeiras,25,16000.0
+2024-10-01,P009,Moveis Comerciais,Mesas,10,9800.0
+2024-10-01,P010,Moveis Comerciais,Armazenagem,19,26600.0
+2024-10-01,P011,Moveis Comerciais,Atendimento,5,9250.0
+2024-10-01,P012,Moveis Comerciais,Estacoes,32,91200.0
+2024-10-01,P013,Moveis Comerciais,Mesas,18,39600.0
+2024-10-01,P014,Servicos sob Demanda,Projetos,1,2100.0
+2024-10-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2024-10-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-10-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-10-01,P018,Servicos sob Demanda,Projetos,2,5200.0
+2024-11-01,P001,Moveis Domesticos,Estofados,16,17600.0
+2024-11-01,P002,Moveis Domesticos,Mesas,30,37500.0
+2024-11-01,P003,Moveis Domesticos,Dormitorio,10,15000.0
+2024-11-01,P004,Moveis Domesticos,Dormitorio,15,27750.0
+2024-11-01,P005,Moveis Domesticos,Sala,23,16560.0
+2024-11-01,P006,Moveis Domesticos,Estofados,7,3640.0
+2024-11-01,P007,Moveis Domesticos,Escritorio,15,11400.0
+2024-11-01,P008,Moveis Comerciais,Cadeiras,31,19840.0
+2024-11-01,P009,Moveis Comerciais,Mesas,19,18620.0
+2024-11-01,P010,Moveis Comerciais,Armazenagem,33,46200.0
+2024-11-01,P011,Moveis Comerciais,Atendimento,9,16650.0
+2024-11-01,P012,Moveis Comerciais,Estacoes,34,96900.0
+2024-11-01,P013,Moveis Comerciais,Mesas,31,68200.0
+2024-11-01,P014,Servicos sob Demanda,Projetos,1,2100.0
+2024-11-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-11-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2024-11-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-11-01,P018,Servicos sob Demanda,Projetos,1,2600.0
+2024-12-01,P001,Moveis Domesticos,Estofados,14,15400.0
+2024-12-01,P002,Moveis Domesticos,Mesas,22,27500.0
+2024-12-01,P003,Moveis Domesticos,Dormitorio,32,48000.0
+2024-12-01,P004,Moveis Domesticos,Dormitorio,6,11100.0
+2024-12-01,P005,Moveis Domesticos,Sala,30,21600.0
+2024-12-01,P006,Moveis Domesticos,Estofados,13,6760.0
+2024-12-01,P007,Moveis Domesticos,Escritorio,24,18240.0
+2024-12-01,P008,Moveis Comerciais,Cadeiras,33,21120.0
+2024-12-01,P009,Moveis Comerciais,Mesas,27,26460.0
+2024-12-01,P010,Moveis Comerciais,Armazenagem,6,8400.0
+2024-12-01,P011,Moveis Comerciais,Atendimento,22,40700.0
+2024-12-01,P012,Moveis Comerciais,Estacoes,9,25650.0
+2024-12-01,P013,Moveis Comerciais,Mesas,12,26400.0
+2024-12-01,P014,Servicos sob Demanda,Projetos,1,2100.0
+2024-12-01,P015,Servicos sob Demanda,Projetos,1,3500.0
+2024-12-01,P016,Servicos sob Demanda,Projetos,2,10400.0
+2024-12-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2024-12-01,P018,Servicos sob Demanda,Projetos,2,5200.0
+2025-01-01,P001,Moveis Domesticos,Estofados,18,20493.0
+2025-01-01,P002,Moveis Domesticos,Mesas,12,15525.0
+2025-01-01,P003,Moveis Domesticos,Dormitorio,23,35707.5
+2025-01-01,P004,Moveis Domesticos,Dormitorio,23,44039.25
+2025-01-01,P005,Moveis Domesticos,Sala,31,23101.2
+2025-01-01,P006,Moveis Domesticos,Estofados,33,17760.6
+2025-01-01,P007,Moveis Domesticos,Escritorio,24,18878.4
+2025-01-01,P008,Moveis Comerciais,Cadeiras,23,15235.2
+2025-01-01,P009,Moveis Comerciais,Mesas,13,13185.9
+2025-01-01,P010,Moveis Comerciais,Armazenagem,11,15939.0
+2025-01-01,P011,Moveis Comerciais,Atendimento,22,42124.5
+2025-01-01,P012,Moveis Comerciais,Estacoes,25,73743.75
+2025-01-01,P013,Moveis Comerciais,Mesas,16,36432.0
+2025-01-01,P014,Servicos sob Demanda,Projetos,1,2173.5
+2025-01-01,P015,Servicos sob Demanda,Projetos,1,3622.5
+2025-01-01,P016,Servicos sob Demanda,Projetos,1,5382.0
+2025-01-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2025-01-01,P018,Servicos sob Demanda,Projetos,1,2691.0
+2025-02-01,P001,Moveis Domesticos,Estofados,11,12523.5
+2025-02-01,P002,Moveis Domesticos,Mesas,8,10350.0
+2025-02-01,P003,Moveis Domesticos,Dormitorio,19,29497.5
+2025-02-01,P004,Moveis Domesticos,Dormitorio,28,53613.0
+2025-02-01,P005,Moveis Domesticos,Sala,28,20865.6
+2025-02-01,P006,Moveis Domesticos,Estofados,15,8073.0
+2025-02-01,P007,Moveis Domesticos,Escritorio,22,17305.2
+2025-02-01,P008,Moveis Comerciais,Cadeiras,10,6624.0
+2025-02-01,P009,Moveis Comerciais,Mesas,13,13185.9
+2025-02-01,P010,Moveis Comerciais,Armazenagem,18,26082.0
+2025-02-01,P011,Moveis Comerciais,Atendimento,16,30636.0
+2025-02-01,P012,Moveis Comerciais,Estacoes,24,70794.0
+2025-02-01,P013,Moveis Comerciais,Mesas,27,61479.0
+2025-02-01,P014,Servicos sob Demanda,Projetos,1,2173.5
+2025-02-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2025-02-01,P016,Servicos sob Demanda,Projetos,2,10764.0
+2025-02-01,P017,Servicos sob Demanda,Consultoria,1,931.5
+2025-02-01,P018,Servicos sob Demanda,Projetos,2,5382.0
+2025-03-01,P001,Moveis Domesticos,Estofados,13,14800.5
+2025-03-01,P002,Moveis Domesticos,Mesas,23,29756.25
+2025-03-01,P003,Moveis Domesticos,Dormitorio,12,18630.0
+2025-03-01,P004,Moveis Domesticos,Dormitorio,21,40209.75
+2025-03-01,P005,Moveis Domesticos,Sala,30,22356.0
+2025-03-01,P006,Moveis Domesticos,Estofados,22,11840.4
+2025-03-01,P007,Moveis Domesticos,Escritorio,34,26744.4
+2025-03-01,P008,Moveis Comerciais,Cadeiras,16,10598.4
+2025-03-01,P009,Moveis Comerciais,Mesas,8,8114.4
+2025-03-01,P010,Moveis Comerciais,Armazenagem,19,27531.0
+2025-03-01,P011,Moveis Comerciais,Atendimento,29,55527.75
+2025-03-01,P012,Moveis Comerciais,Estacoes,20,58995.0
+2025-03-01,P013,Moveis Comerciais,Mesas,23,52371.0
+2025-03-01,P014,Servicos sob Demanda,Projetos,2,4347.0
+2025-03-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2025-03-01,P016,Servicos sob Demanda,Projetos,2,10764.0
+2025-03-01,P017,Servicos sob Demanda,Consultoria,2,1863.0
+2025-03-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2025-04-01,P001,Moveis Domesticos,Estofados,10,11385.0
+2025-04-01,P002,Moveis Domesticos,Mesas,34,43987.5
+2025-04-01,P003,Moveis Domesticos,Dormitorio,34,52785.0
+2025-04-01,P004,Moveis Domesticos,Dormitorio,33,63186.75
+2025-04-01,P005,Moveis Domesticos,Sala,30,22356.0
+2025-04-01,P006,Moveis Domesticos,Estofados,13,6996.6
+2025-04-01,P007,Moveis Domesticos,Escritorio,21,16518.6
+2025-04-01,P008,Moveis Comerciais,Cadeiras,34,22521.6
+2025-04-01,P009,Moveis Comerciais,Mesas,26,26371.8
+2025-04-01,P010,Moveis Comerciais,Armazenagem,20,28980.0
+2025-04-01,P011,Moveis Comerciais,Atendimento,23,44039.25
+2025-04-01,P012,Moveis Comerciais,Estacoes,11,32447.25
+2025-04-01,P013,Moveis Comerciais,Mesas,15,34155.0
+2025-04-01,P014,Servicos sob Demanda,Projetos,2,4347.0
+2025-04-01,P015,Servicos sob Demanda,Projetos,2,7245.0
+2025-04-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2025-04-01,P017,Servicos sob Demanda,Consultoria,1,931.5
+2025-04-01,P018,Servicos sob Demanda,Projetos,2,5382.0
+2025-05-01,P001,Moveis Domesticos,Estofados,18,20493.0
+2025-05-01,P002,Moveis Domesticos,Mesas,30,38812.5
+2025-05-01,P003,Moveis Domesticos,Dormitorio,24,37260.0
+2025-05-01,P004,Moveis Domesticos,Dormitorio,15,28721.25
+2025-05-01,P005,Moveis Domesticos,Sala,27,20120.4
+2025-05-01,P006,Moveis Domesticos,Estofados,15,8073.0
+2025-05-01,P007,Moveis Domesticos,Escritorio,17,13372.2
+2025-05-01,P008,Moveis Comerciais,Cadeiras,13,8611.2
+2025-05-01,P009,Moveis Comerciais,Mesas,34,34486.2
+2025-05-01,P010,Moveis Comerciais,Armazenagem,17,24633.0
+2025-05-01,P011,Moveis Comerciais,Atendimento,33,63186.75
+2025-05-01,P012,Moveis Comerciais,Estacoes,22,64894.5
+2025-05-01,P013,Moveis Comerciais,Mesas,8,18216.0
+2025-05-01,P014,Servicos sob Demanda,Projetos,2,4347.0
+2025-05-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2025-05-01,P016,Servicos sob Demanda,Projetos,2,10764.0
+2025-05-01,P017,Servicos sob Demanda,Consultoria,2,1863.0
+2025-05-01,P018,Servicos sob Demanda,Projetos,1,2691.0
+2025-06-01,P001,Moveis Domesticos,Estofados,16,18216.0
+2025-06-01,P002,Moveis Domesticos,Mesas,19,24581.25
+2025-06-01,P003,Moveis Domesticos,Dormitorio,28,43470.0
+2025-06-01,P004,Moveis Domesticos,Dormitorio,16,30636.0
+2025-06-01,P005,Moveis Domesticos,Sala,6,4471.2
+2025-06-01,P006,Moveis Domesticos,Estofados,22,11840.4
+2025-06-01,P007,Moveis Domesticos,Escritorio,27,21238.2
+2025-06-01,P008,Moveis Comerciais,Cadeiras,9,5961.6
+2025-06-01,P009,Moveis Comerciais,Mesas,15,15214.5
+2025-06-01,P010,Moveis Comerciais,Armazenagem,19,27531.0
+2025-06-01,P011,Moveis Comerciais,Atendimento,23,44039.25
+2025-06-01,P012,Moveis Comerciais,Estacoes,20,58995.0
+2025-06-01,P013,Moveis Comerciais,Mesas,27,61479.0
+2025-06-01,P014,Servicos sob Demanda,Projetos,1,2173.5
+2025-06-01,P015,Servicos sob Demanda,Projetos,2,7245.0
+2025-06-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2025-06-01,P017,Servicos sob Demanda,Consultoria,2,1863.0
+2025-06-01,P018,Servicos sob Demanda,Projetos,1,2691.0
+2025-07-01,P001,Moveis Domesticos,Estofados,17,19354.5
+2025-07-01,P002,Moveis Domesticos,Mesas,27,34931.25
+2025-07-01,P003,Moveis Domesticos,Dormitorio,17,26392.5
+2025-07-01,P004,Moveis Domesticos,Dormitorio,28,53613.0
+2025-07-01,P005,Moveis Domesticos,Sala,29,21610.8
+2025-07-01,P006,Moveis Domesticos,Estofados,21,11302.2
+2025-07-01,P007,Moveis Domesticos,Escritorio,21,16518.6
+2025-07-01,P008,Moveis Comerciais,Cadeiras,31,20534.4
+2025-07-01,P009,Moveis Comerciais,Mesas,27,27386.1
+2025-07-01,P010,Moveis Comerciais,Armazenagem,27,39123.0
+2025-07-01,P011,Moveis Comerciais,Atendimento,25,47868.75
+2025-07-01,P012,Moveis Comerciais,Estacoes,28,82593.0
+2025-07-01,P013,Moveis Comerciais,Mesas,28,63756.0
+2025-07-01,P014,Servicos sob Demanda,Projetos,2,4347.0
+2025-07-01,P015,Servicos sob Demanda,Projetos,1,3622.5
+2025-07-01,P016,Servicos sob Demanda,Projetos,2,10764.0
+2025-07-01,P017,Servicos sob Demanda,Consultoria,1,931.5
+2025-07-01,P018,Servicos sob Demanda,Projetos,2,5382.0
+2025-08-01,P001,Moveis Domesticos,Estofados,19,21631.5
+2025-08-01,P002,Moveis Domesticos,Mesas,7,9056.25
+2025-08-01,P003,Moveis Domesticos,Dormitorio,29,45022.5
+2025-08-01,P004,Moveis Domesticos,Dormitorio,20,38295.0
+2025-08-01,P005,Moveis Domesticos,Sala,6,4471.2
+2025-08-01,P006,Moveis Domesticos,Estofados,29,15607.8
+2025-08-01,P007,Moveis Domesticos,Escritorio,6,4719.6
+2025-08-01,P008,Moveis Comerciais,Cadeiras,8,5299.2
+2025-08-01,P009,Moveis Comerciais,Mesas,26,26371.8
+2025-08-01,P010,Moveis Comerciais,Armazenagem,9,13041.0
+2025-08-01,P011,Moveis Comerciais,Atendimento,13,24891.75
+2025-08-01,P012,Moveis Comerciais,Estacoes,17,50145.75
+2025-08-01,P013,Moveis Comerciais,Mesas,34,77418.0
+2025-08-01,P014,Servicos sob Demanda,Projetos,1,2173.5
+2025-08-01,P015,Servicos sob Demanda,Projetos,2,7245.0
+2025-08-01,P016,Servicos sob Demanda,Projetos,2,10764.0
+2025-08-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2025-08-01,P018,Servicos sob Demanda,Projetos,1,2691.0
+2025-09-01,P001,Moveis Domesticos,Estofados,15,17077.5
+2025-09-01,P002,Moveis Domesticos,Mesas,11,14231.25
+2025-09-01,P003,Moveis Domesticos,Dormitorio,21,32602.5
+2025-09-01,P004,Moveis Domesticos,Dormitorio,30,57442.5
+2025-09-01,P005,Moveis Domesticos,Sala,28,20865.6
+2025-09-01,P006,Moveis Domesticos,Estofados,12,6458.4
+2025-09-01,P007,Moveis Domesticos,Escritorio,12,9439.2
+2025-09-01,P008,Moveis Comerciais,Cadeiras,30,19872.0
+2025-09-01,P009,Moveis Comerciais,Mesas,23,23328.9
+2025-09-01,P010,Moveis Comerciais,Armazenagem,19,27531.0
+2025-09-01,P011,Moveis Comerciais,Atendimento,29,55527.75
+2025-09-01,P012,Moveis Comerciais,Estacoes,6,17698.5
+2025-09-01,P013,Moveis Comerciais,Mesas,27,61479.0
+2025-09-01,P014,Servicos sob Demanda,Projetos,1,2173.5
+2025-09-01,P015,Servicos sob Demanda,Projetos,1,3622.5
+2025-09-01,P016,Servicos sob Demanda,Projetos,1,5382.0
+2025-09-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2025-09-01,P018,Servicos sob Demanda,Projetos,2,5382.0
+2025-10-01,P001,Moveis Domesticos,Estofados,7,7969.5
+2025-10-01,P002,Moveis Domesticos,Mesas,22,28462.5
+2025-10-01,P003,Moveis Domesticos,Dormitorio,19,29497.5
+2025-10-01,P004,Moveis Domesticos,Dormitorio,34,65101.5
+2025-10-01,P005,Moveis Domesticos,Sala,24,17884.8
+2025-10-01,P006,Moveis Domesticos,Estofados,16,8611.2
+2025-10-01,P007,Moveis Domesticos,Escritorio,17,13372.2
+2025-10-01,P008,Moveis Comerciais,Cadeiras,12,7948.8
+2025-10-01,P009,Moveis Comerciais,Mesas,6,6085.8
+2025-10-01,P010,Moveis Comerciais,Armazenagem,18,26082.0
+2025-10-01,P011,Moveis Comerciais,Atendimento,5,9573.75
+2025-10-01,P012,Moveis Comerciais,Estacoes,24,70794.0
+2025-10-01,P013,Moveis Comerciais,Mesas,32,72864.0
+2025-10-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2025-10-01,P015,Servicos sob Demanda,Projetos,2,7245.0
+2025-10-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2025-10-01,P017,Servicos sob Demanda,Consultoria,1,931.5
+2025-10-01,P018,Servicos sob Demanda,Projetos,1,2691.0
+2025-11-01,P001,Moveis Domesticos,Estofados,24,27324.0
+2025-11-01,P002,Moveis Domesticos,Mesas,16,20700.0
+2025-11-01,P003,Moveis Domesticos,Dormitorio,6,9315.0
+2025-11-01,P004,Moveis Domesticos,Dormitorio,28,53613.0
+2025-11-01,P005,Moveis Domesticos,Sala,18,13413.6
+2025-11-01,P006,Moveis Domesticos,Estofados,12,6458.4
+2025-11-01,P007,Moveis Domesticos,Escritorio,18,14158.8
+2025-11-01,P008,Moveis Comerciais,Cadeiras,18,11923.2
+2025-11-01,P009,Moveis Comerciais,Mesas,22,22314.6
+2025-11-01,P010,Moveis Comerciais,Armazenagem,20,28980.0
+2025-11-01,P011,Moveis Comerciais,Atendimento,22,42124.5
+2025-11-01,P012,Moveis Comerciais,Estacoes,33,97341.75
+2025-11-01,P013,Moveis Comerciais,Mesas,32,72864.0
+2025-11-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2025-11-01,P015,Servicos sob Demanda,Projetos,1,3622.5
+2025-11-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2025-11-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2025-11-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2025-12-01,P001,Moveis Domesticos,Estofados,24,27324.0
+2025-12-01,P002,Moveis Domesticos,Mesas,34,43987.5
+2025-12-01,P003,Moveis Domesticos,Dormitorio,28,43470.0
+2025-12-01,P004,Moveis Domesticos,Dormitorio,8,15318.0
+2025-12-01,P005,Moveis Domesticos,Sala,11,8197.2
+2025-12-01,P006,Moveis Domesticos,Estofados,29,15607.8
+2025-12-01,P007,Moveis Domesticos,Escritorio,23,18091.8
+2025-12-01,P008,Moveis Comerciais,Cadeiras,20,13248.0
+2025-12-01,P009,Moveis Comerciais,Mesas,10,10143.0
+2025-12-01,P010,Moveis Comerciais,Armazenagem,28,40572.0
+2025-12-01,P011,Moveis Comerciais,Atendimento,30,57442.5
+2025-12-01,P012,Moveis Comerciais,Estacoes,14,41296.5
+2025-12-01,P013,Moveis Comerciais,Mesas,34,77418.0
+2025-12-01,P014,Servicos sob Demanda,Projetos,1,2173.5
+2025-12-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2025-12-01,P016,Servicos sob Demanda,Projetos,2,10764.0
+2025-12-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2025-12-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2026-01-01,P001,Moveis Domesticos,Estofados,18,21186.0
+2026-01-01,P002,Moveis Domesticos,Mesas,23,30762.5
+2026-01-01,P003,Moveis Domesticos,Dormitorio,23,36915.0
+2026-01-01,P004,Moveis Domesticos,Dormitorio,33,65323.5
+2026-01-01,P005,Moveis Domesticos,Sala,18,13867.2
+2026-01-01,P006,Moveis Domesticos,Estofados,8,4451.2
+2026-01-01,P007,Moveis Domesticos,Escritorio,18,14637.6
+2026-01-01,P008,Moveis Comerciais,Cadeiras,30,20544.0
+2026-01-01,P009,Moveis Comerciais,Mesas,5,5243.0
+2026-01-01,P010,Moveis Comerciais,Armazenagem,13,19474.0
+2026-01-01,P011,Moveis Comerciais,Atendimento,25,49487.5
+2026-01-01,P012,Moveis Comerciais,Estacoes,11,33544.5
+2026-01-01,P013,Moveis Comerciais,Mesas,19,44726.0
+2026-01-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2026-01-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2026-01-01,P016,Servicos sob Demanda,Projetos,2,11128.0
+2026-01-01,P017,Servicos sob Demanda,Consultoria,2,1926.0
+2026-01-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2026-02-01,P001,Moveis Domesticos,Estofados,21,24717.0
+2026-02-01,P002,Moveis Domesticos,Mesas,17,22737.5
+2026-02-01,P003,Moveis Domesticos,Dormitorio,16,25680.0
+2026-02-01,P004,Moveis Domesticos,Dormitorio,25,49487.5
+2026-02-01,P005,Moveis Domesticos,Sala,24,18489.6
+2026-02-01,P006,Moveis Domesticos,Estofados,9,5007.6
+2026-02-01,P007,Moveis Domesticos,Escritorio,34,27648.8
+2026-02-01,P008,Moveis Comerciais,Cadeiras,11,7532.8
+2026-02-01,P009,Moveis Comerciais,Mesas,21,22020.6
+2026-02-01,P010,Moveis Comerciais,Armazenagem,9,13482.0
+2026-02-01,P011,Moveis Comerciais,Atendimento,23,45528.5
+2026-02-01,P012,Moveis Comerciais,Estacoes,5,15247.5
+2026-02-01,P013,Moveis Comerciais,Mesas,13,30602.0
+2026-02-01,P014,Servicos sob Demanda,Projetos,1,2247.0
+2026-02-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2026-02-01,P016,Servicos sob Demanda,Projetos,1,5564.0
+2026-02-01,P017,Servicos sob Demanda,Consultoria,1,963.0
+2026-02-01,P018,Servicos sob Demanda,Projetos,2,5564.0
+2026-03-01,P001,Moveis Domesticos,Estofados,16,18832.0
+2026-03-01,P002,Moveis Domesticos,Mesas,26,34775.0
+2026-03-01,P003,Moveis Domesticos,Dormitorio,12,19260.0
+2026-03-01,P004,Moveis Domesticos,Dormitorio,34,67303.0
+2026-03-01,P005,Moveis Domesticos,Sala,33,25423.2
+2026-03-01,P006,Moveis Domesticos,Estofados,27,15022.8
+2026-03-01,P007,Moveis Domesticos,Escritorio,11,8945.2
+2026-03-01,P008,Moveis Comerciais,Cadeiras,34,23283.2
+2026-03-01,P009,Moveis Comerciais,Mesas,16,16777.6
+2026-03-01,P010,Moveis Comerciais,Armazenagem,12,17976.0
+2026-03-01,P011,Moveis Comerciais,Atendimento,17,33651.5
+2026-03-01,P012,Moveis Comerciais,Estacoes,10,30495.0
+2026-03-01,P013,Moveis Comerciais,Mesas,15,35310.0
+2026-03-01,P014,Servicos sob Demanda,Projetos,1,2247.0
+2026-03-01,P015,Servicos sob Demanda,Projetos,2,7490.0
+2026-03-01,P016,Servicos sob Demanda,Projetos,1,5564.0
+2026-03-01,P017,Servicos sob Demanda,Consultoria,2,1926.0
+2026-03-01,P018,Servicos sob Demanda,Projetos,2,5564.0
+2026-04-01,P001,Moveis Domesticos,Estofados,33,38841.0
+2026-04-01,P002,Moveis Domesticos,Mesas,21,28087.5
+2026-04-01,P003,Moveis Domesticos,Dormitorio,22,35310.0
+2026-04-01,P004,Moveis Domesticos,Dormitorio,33,65323.5
+2026-04-01,P005,Moveis Domesticos,Sala,25,19260.0
+2026-04-01,P006,Moveis Domesticos,Estofados,13,7233.2
+2026-04-01,P007,Moveis Domesticos,Escritorio,22,17890.4
+2026-04-01,P008,Moveis Comerciais,Cadeiras,22,15065.6
+2026-04-01,P009,Moveis Comerciais,Mesas,22,23069.2
+2026-04-01,P010,Moveis Comerciais,Armazenagem,24,35952.0
+2026-04-01,P011,Moveis Comerciais,Atendimento,17,33651.5
+2026-04-01,P012,Moveis Comerciais,Estacoes,9,27445.5
+2026-04-01,P013,Moveis Comerciais,Mesas,15,35310.0
+2026-04-01,P014,Servicos sob Demanda,Projetos,2,4494.0
+2026-04-01,P015,Servicos sob Demanda,Projetos,2,7490.0
+2026-04-01,P016,Servicos sob Demanda,Projetos,1,5564.0
+2026-04-01,P017,Servicos sob Demanda,Consultoria,2,1926.0
+2026-04-01,P018,Servicos sob Demanda,Projetos,0,0.0
+2026-05-01,P001,Moveis Domesticos,Estofados,28,32956.0
+2026-05-01,P002,Moveis Domesticos,Mesas,17,22737.5
+2026-05-01,P003,Moveis Domesticos,Dormitorio,26,41730.0
+2026-05-01,P004,Moveis Domesticos,Dormitorio,24,47508.0
+2026-05-01,P005,Moveis Domesticos,Sala,27,20800.8
+2026-05-01,P006,Moveis Domesticos,Estofados,27,15022.8
+2026-05-01,P007,Moveis Domesticos,Escritorio,24,19516.8
+2026-05-01,P008,Moveis Comerciais,Cadeiras,17,11641.6
+2026-05-01,P009,Moveis Comerciais,Mesas,29,30409.4
+2026-05-01,P010,Moveis Comerciais,Armazenagem,26,38948.0
+2026-05-01,P011,Moveis Comerciais,Atendimento,9,17815.5
+2026-05-01,P012,Moveis Comerciais,Estacoes,12,36594.0
+2026-05-01,P013,Moveis Comerciais,Mesas,13,30602.0
+2026-05-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2026-05-01,P015,Servicos sob Demanda,Projetos,2,7490.0
+2026-05-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2026-05-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2026-05-01,P018,Servicos sob Demanda,Projetos,1,2782.0
+2026-06-01,P001,Moveis Domesticos,Estofados,10,11770.0
+2026-06-01,P002,Moveis Domesticos,Mesas,10,13375.0
+2026-06-01,P003,Moveis Domesticos,Dormitorio,17,27285.0
+2026-06-01,P004,Moveis Domesticos,Dormitorio,23,45528.5
+2026-06-01,P005,Moveis Domesticos,Sala,15,11556.0
+2026-06-01,P006,Moveis Domesticos,Estofados,33,18361.2
+2026-06-01,P007,Moveis Domesticos,Escritorio,17,13824.4
+2026-06-01,P008,Moveis Comerciais,Cadeiras,34,23283.2
+2026-06-01,P009,Moveis Comerciais,Mesas,21,22020.6
+2026-06-01,P010,Moveis Comerciais,Armazenagem,16,23968.0
+2026-06-01,P011,Moveis Comerciais,Atendimento,8,15836.0
+2026-06-01,P012,Moveis Comerciais,Estacoes,27,82336.5
+2026-06-01,P013,Moveis Comerciais,Mesas,21,49434.0
+2026-06-01,P014,Servicos sob Demanda,Projetos,2,4494.0
+2026-06-01,P015,Servicos sob Demanda,Projetos,2,7490.0
+2026-06-01,P016,Servicos sob Demanda,Projetos,1,5564.0
+2026-06-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2026-06-01,P018,Servicos sob Demanda,Projetos,1,2782.0
+2026-07-01,P001,Moveis Domesticos,Estofados,7,8239.0
+2026-07-01,P002,Moveis Domesticos,Mesas,9,12037.5
+2026-07-01,P003,Moveis Domesticos,Dormitorio,17,27285.0
+2026-07-01,P004,Moveis Domesticos,Dormitorio,10,19795.0
+2026-07-01,P005,Moveis Domesticos,Sala,30,23112.0
+2026-07-01,P006,Moveis Domesticos,Estofados,30,16692.0
+2026-07-01,P007,Moveis Domesticos,Escritorio,10,8132.0
+2026-07-01,P008,Moveis Comerciais,Cadeiras,12,8217.6
+2026-07-01,P009,Moveis Comerciais,Mesas,29,30409.4
+2026-07-01,P010,Moveis Comerciais,Armazenagem,13,19474.0
+2026-07-01,P011,Moveis Comerciais,Atendimento,12,23754.0
+2026-07-01,P012,Moveis Comerciais,Estacoes,27,82336.5
+2026-07-01,P013,Moveis Comerciais,Mesas,17,40018.0
+2026-07-01,P014,Servicos sob Demanda,Projetos,2,4494.0
+2026-07-01,P015,Servicos sob Demanda,Projetos,1,3745.0
+2026-07-01,P016,Servicos sob Demanda,Projetos,0,0.0
+2026-07-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2026-07-01,P018,Servicos sob Demanda,Projetos,2,5564.0
+2026-08-01,P001,Moveis Domesticos,Estofados,18,21186.0
+2026-08-01,P002,Moveis Domesticos,Mesas,18,24075.0
+2026-08-01,P003,Moveis Domesticos,Dormitorio,25,40125.0
+2026-08-01,P004,Moveis Domesticos,Dormitorio,13,25733.5
+2026-08-01,P005,Moveis Domesticos,Sala,34,26193.6
+2026-08-01,P006,Moveis Domesticos,Estofados,20,11128.0
+2026-08-01,P007,Moveis Domesticos,Escritorio,30,24396.0
+2026-08-01,P008,Moveis Comerciais,Cadeiras,28,19174.4
+2026-08-01,P009,Moveis Comerciais,Mesas,23,24117.8
+2026-08-01,P010,Moveis Comerciais,Armazenagem,7,10486.0
+2026-08-01,P011,Moveis Comerciais,Atendimento,27,53446.5
+2026-08-01,P012,Moveis Comerciais,Estacoes,7,21346.5
+2026-08-01,P013,Moveis Comerciais,Mesas,27,63558.0
+2026-08-01,P014,Servicos sob Demanda,Projetos,2,4494.0
+2026-08-01,P015,Servicos sob Demanda,Projetos,1,3745.0
+2026-08-01,P016,Servicos sob Demanda,Projetos,2,11128.0
+2026-08-01,P017,Servicos sob Demanda,Consultoria,1,963.0
+2026-08-01,P018,Servicos sob Demanda,Projetos,1,2782.0
+2026-09-01,P001,Moveis Domesticos,Estofados,20,23540.0
+2026-09-01,P002,Moveis Domesticos,Mesas,9,12037.5
+2026-09-01,P003,Moveis Domesticos,Dormitorio,6,9630.0
+2026-09-01,P004,Moveis Domesticos,Dormitorio,7,13856.5
+2026-09-01,P005,Moveis Domesticos,Sala,31,23882.4
+2026-09-01,P006,Moveis Domesticos,Estofados,9,5007.6
+2026-09-01,P007,Moveis Domesticos,Escritorio,24,19516.8
+2026-09-01,P008,Moveis Comerciais,Cadeiras,13,8902.4
+2026-09-01,P009,Moveis Comerciais,Mesas,16,16777.6
+2026-09-01,P010,Moveis Comerciais,Armazenagem,25,37450.0
+2026-09-01,P011,Moveis Comerciais,Atendimento,31,61364.5
+2026-09-01,P012,Moveis Comerciais,Estacoes,8,24396.0
+2026-09-01,P013,Moveis Comerciais,Mesas,20,47080.0
+2026-09-01,P014,Servicos sob Demanda,Projetos,0,0.0
+2026-09-01,P015,Servicos sob Demanda,Projetos,0,0.0
+2026-09-01,P016,Servicos sob Demanda,Projetos,2,11128.0
+2026-09-01,P017,Servicos sob Demanda,Consultoria,0,0.0
+2026-09-01,P018,Servicos sob Demanda,Projetos,0,0.0
