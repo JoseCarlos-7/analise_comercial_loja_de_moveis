@@ -9,7 +9,7 @@ Medidas DAX;
 Power BI;
 
 ## Uso de IA.
-Neste estudo a IA foi utilizada para o seguinte fim:
+Neste estudo a IA foi utilizada para o seguinte fim:<br>
 **Proposição**: Foi enviado um prompt no Claude code, solicitando um estudo de caso com a finalidade de exercitar análise de dados voltada para àrea comercial. Como resultado do prompt foi obtido um conjunto de bases e um arquivo descrevendo o problema de negócio. <br>
 
 ## Problema de negócio
