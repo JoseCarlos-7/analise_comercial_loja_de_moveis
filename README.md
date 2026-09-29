@@ -121,8 +121,8 @@ Sim, considerando as variáveis receita e margem, a correlação é forte. Poré
 
 - Realizar promoções: Com o objetivo de aumentar o giro de estoque, seria uma possibilidade realizar queima de estoque. E realizar um estudo para saber se um ajuste no mix de produtos impactaria positivamente a operação.
 
-Alinhada às recomendações anteriores, seria uma boa prática a definição de OKRs realistas para acompanhar a evolução para atingimento das metas.<br>
-KRs: <br>
+Alinhada às recomendações anteriores, seria uma boa prática a definição de atividades realistas para acompanhar a evolução para atingimento das metas.<br>
+
 - Reunir semanalmente com pelo menos 1 possível novo fornecedor para sondar vantagens de financiamento e prazo;
 - Ofertar vantagens para clientes que possam pagar entradas maiores (Descontos, cupons ou serviços).
 - Enviar mensagens para os clientes que se interessaram pelos produtos que causam pressão no estoque apresentando oferetas especiais.
