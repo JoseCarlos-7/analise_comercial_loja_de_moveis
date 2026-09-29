@@ -1,0 +1,6504 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fato_estoque_mensal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fato estoque mensal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fato_estoque_mensal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal.data_snapshot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal",
+			          "ConceptualProperty": "data_snapshot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data snapshot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_snapshot": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "snapshot": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record snapshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data Polaroid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data portrait": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "Polaroid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fato_estoque_mensal.produto_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal",
+			          "ConceptualProperty": "produto_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "produto id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "produto_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "produto identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal.linha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal",
+			          "ConceptualProperty": "linha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "linha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal",
+			          "ConceptualProperty": "categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal.quantidade_estoque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal",
+			          "ConceptualProperty": "quantidade_estoque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade estoque": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_estoque": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal.valor_estoque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_estoque_mensal",
+			          "ConceptualProperty": "valor_estoque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor estoque": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_estoque": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fato fluxo caixa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fato_fluxo_caixa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.data_movimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "data_movimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data movimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_movimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record movimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fato_fluxo_caixa.tipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "tipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.descricao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "descricao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descricao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.fluxo_liquido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "fluxo_liquido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fluxo liquido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fluxo_liquido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.início_do_mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "Início do Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "início do mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_produtos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produto.produto_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos",
+			          "ConceptualProperty": "produto_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produto id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "produto_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "produto identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produto.produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos",
+			          "ConceptualProperty": "produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produto.linha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos",
+			          "ConceptualProperty": "linha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "linha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produto.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos",
+			          "ConceptualProperty": "categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produto.preco_base": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos",
+			          "ConceptualProperty": "preco_base"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preco base": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preco_base": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "preco headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "preco center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "preco seat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "preco station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "preco pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produto.custo_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_produtos",
+			          "ConceptualProperty": "custo_unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo unitario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo_unitario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fato venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fato_vendas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.venda_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "venda_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "venda id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "venda_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "venda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "venda identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "venda identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "venda identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "venda credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fato_venda.produto_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "produto_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "produto id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "produto_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "produto identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "produto credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.linha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "linha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "linha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.vendedor_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "vendedor_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "vendedor id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vendedor_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vendedor identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendedor identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendedor identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendedor credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.quantidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "quantidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.preco_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "preco_unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preco unitario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preco_unitario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.custo_mercadoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "custo_mercadoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo mercadoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo_mercadoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.receita_bruta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "receita_bruta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita bruta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receita_bruta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.prazo_recebimento_dias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "prazo_recebimento_dias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prazo recebimento dias": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prazo_recebimento_dias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.margem_contribuicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "margem_contribuicao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem contribuicao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "margem_contribuicao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.desconto_acrescimo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "desconto_acrescimo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desconto acrescimo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "desconto_acrescimo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_vendedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_vendedores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim vendedore": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_vendedores": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_vendedore.vendedor_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_vendedores",
+			          "ConceptualProperty": "vendedor_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedor id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vendedor_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vendedor identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendedor identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendedor identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendedor credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_vendedore.vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_vendedores",
+			          "ConceptualProperty": "vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_calendario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_calendario",
+			          "ConceptualProperty": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_calendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.início_do_mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_calendario",
+			          "ConceptualProperty": "Início do Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "início do mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_calendario.nome_do_mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_calendario",
+			          "ConceptualProperty": "Nome do Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_calendario",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__faturamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "receita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_faturamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__quantidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_quantidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__cmv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "cmv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_cmv": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__caixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "caixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_caixa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__fluxo_negativo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "fluxo negativo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_fluxo negativo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__margem_de_geracao_de_caixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "margem de geracao de caixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_margem de geracao de caixa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.cor_margem_de_geração_de_caixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "Cor margem de geração de caixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor margem de geração de caixa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.indicador_selecionado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "Indicador Selecionado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicador selecionado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__estoque_medio_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "estoque medio valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_estoque medio valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_estoque medio courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "_estoque medio pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "_estoque medio spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "_estoque medio nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__giro_de_estoque_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "giro de estoque valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_giro de estoque valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_giro de estoque courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "_giro de estoque pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "_giro de estoque spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "_giro de estoque nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ]
+			    },
+			    "medida.rank_mes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "rank_mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank mes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rank_mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.margem_de_contribuicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "margem_de_contribuicao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem de contribuicao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_margem_de_contribuicao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__dias_de_caixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "dias de caixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_dias de caixa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.cor_dias_de_caixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "Cor dias_de_caixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor dias_de_caixa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__margem_evolucao_aa_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "margem evolucao aa %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_margem evolucao aa %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_margem evolucao aa percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "_margem evolucao aa pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__caixa_evolucao_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "caixa evolucao %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_caixa evolucao %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_caixa evolucao percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "_caixa evolucao pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "glossario_de_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "glossario_de_medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "glossario de medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "glossario_de_medidas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "glossario_de_medida.nome_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "glossario_de_medidas",
+			          "ConceptualProperty": "nome_medida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_medida": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "glossario_de_medida.metrica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "glossario_de_medidas",
+			          "ConceptualProperty": "metrica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "metrica": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "indicadore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicadores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicadore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "indicadore.ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicadores",
+			          "ConceptualProperty": "Ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "indicadore.limite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicadores",
+			          "ConceptualProperty": "limite"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "limite": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "indicadore.kpi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicadores",
+			          "ConceptualProperty": "KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kpi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa.categoria_grupos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_fluxo_caixa",
+			          "ConceptualProperty": "categoria (grupos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria (grupos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "categoria (grupo)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "categoria": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.data_recebimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "data_recebimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data recebimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_recebimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record recebimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "medida.entity__margem_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "margem pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_margem pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "margem %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__custo_direto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "custo direto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_custo direto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__estoque_medio_valor_anual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "estoque medio valor anual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_estoque medio valor anual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__cmv_anual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "cmv anual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_cmv anual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__giro_de_estoque_anual_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "giro de estoque valor anual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_giro de estoque anual valor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.cor_quadrante_giro_e_estoque_medio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "Cor quadrante giro e estoque medio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor quadrante giro e estoque medio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__idc_de_pressao_de_estoque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "idc de pressao de estoque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_idc de pressao de estoque": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__pressão__CMV": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "pressão × CMV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_pressão × CMV": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.tipo_recebimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "tipo_recebimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo recebimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_recebimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_venda.prazo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fato_vendas",
+			          "ConceptualProperty": "prazo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prazo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity___acumulado_idc_pressao_cmv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "% Acumulado (idc pressao cmv)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_% acumulado (idc pressao cmv)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_% acumulado": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__rank_idc_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "rank idc produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_rank idc produto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__idc_pressao_cmv_acumulada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "idc pressao cmv acumulada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_idc pressao cmv acumulada": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__pressão__CMV_visual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "pressão × CMV visual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_pressão × CMV visual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity__caixa_sobre_custo_fixo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "caixa sobre custo fixo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_caixa sobre custo fixo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.margem_perdida_acrescida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "margem_perdida_acrescida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem perdida acrescida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_margem_perdida_acrescida": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "margem": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.cor_margem_de_contribuicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "Cor margem de contribuicao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor margem de contribuicao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.cor_margem_de_contribuicao_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "medidas",
+			          "ConceptualProperty": "Cor margem de contribuicao valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor margem de contribuicao valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cor margem de contribuicao nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "fato_venda_has_dim_calendario1": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          },
+			          "Nouns": [
+			            {
+			              "data": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_dim_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "fato_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_fato_venda"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_dim_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "dim_vendedore": {
+			          "Target": {
+			            "Entity": "dim_vendedore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "dim_vendedore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_dim_vendedores"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_vendedore"
+			            },
+			            "Object": {
+			              "Role": "fato_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_vendedores_have_fato_venda"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_dim_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "dim_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_dim_produtos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "fato_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_fato_venda"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_dim_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_dim_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_fato_fluxo_caixas"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_dim_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "dim_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_dim_produtos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_fato_estoque_mensal"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_dim_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_dim_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_fato_estoque_mensal"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_cor_margem_de_contribuicao_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.cor_margem_de_contribuicao_valor": {
+			          "Target": {
+			            "Entity": "medida.cor_margem_de_contribuicao_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_margem_de_contribuicao_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_cor_margem_de_contribuicao_valor"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_cor_margem_de_contribuicao": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.cor_margem_de_contribuicao": {
+			          "Target": {
+			            "Entity": "medida.cor_margem_de_contribuicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_margem_de_contribuicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_cor_margem_de_contribuicao"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_margem_perdida_acrescida": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.margem_perdida_acrescida": {
+			          "Target": {
+			            "Entity": "medida.margem_perdida_acrescida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.margem_perdida_acrescida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_margem_perdida_acrescida"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__caixa_sobre_custo_fixo": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__caixa_sobre_custo_fixo": {
+			          "Target": {
+			            "Entity": "medida.entity__caixa_sobre_custo_fixo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__caixa_sobre_custo_fixo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__caixa_sobre_custo_fixo"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__pressão__CMV_visual": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__pressão__CMV_visual": {
+			          "Target": {
+			            "Entity": "medida.entity__pressão__CMV_visual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__pressão__CMV_visual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__pressão__CMV_visual"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__pressão__CMV_visual": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__pressão__CMV_visual": {
+			          "Target": {
+			            "Entity": "medida.entity__pressão__CMV_visual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__pressão__CMV_visual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__pressão__CMV_visual"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__idc_pressao_cmv_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__idc_pressao_cmv_acumulada": {
+			          "Target": {
+			            "Entity": "medida.entity__idc_pressao_cmv_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__idc_pressao_cmv_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__idc_pressao_cmv_acumulada"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__idc_pressao_cmv_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__idc_pressao_cmv_acumulada": {
+			          "Target": {
+			            "Entity": "medida.entity__idc_pressao_cmv_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__idc_pressao_cmv_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__idc_pressao_cmv_acumulada"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_medida_entity__idc_pressao_cmv_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "medida.entity__idc_pressao_cmv_acumulada": {
+			          "Target": {
+			            "Entity": "medida.entity__idc_pressao_cmv_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__idc_pressao_cmv_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have__idc_pressao_cmv_acumulada"
+			        }
+			      ]
+			    },
+			    "medida_has_entity__rank_idc_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.entity__rank_idc_produto": {
+			          "Target": {
+			            "Entity": "medida.entity__rank_idc_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__rank_idc_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have__rank_idc_produto"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity___acumulado_idc_pressao_cmv": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity___acumulado_idc_pressao_cmv": {
+			          "Target": {
+			            "Entity": "medida.entity___acumulado_idc_pressao_cmv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity___acumulado_idc_pressao_cmv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have___acumulado_idc_pressao_cmv"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity___acumulado_idc_pressao_cmv": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity___acumulado_idc_pressao_cmv": {
+			          "Target": {
+			            "Entity": "medida.entity___acumulado_idc_pressao_cmv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity___acumulado_idc_pressao_cmv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have___acumulado_idc_pressao_cmv"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_medida_entity___acumulado_idc_pressao_cmv": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "medida.entity___acumulado_idc_pressao_cmv": {
+			          "Target": {
+			            "Entity": "medida.entity___acumulado_idc_pressao_cmv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "medida.entity___acumulado_idc_pressao_cmv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have___acumulado_idc_pressao_cmv"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_prazo": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.prazo": {
+			          "Target": {
+			            "Entity": "fato_venda.prazo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.prazo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_prazos"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_tipo_recebimento": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.tipo_recebimento": {
+			          "Target": {
+			            "Entity": "fato_venda.tipo_recebimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.tipo_recebimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_tipo_recebimentos"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__pressão__CMV": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__pressão__CMV": {
+			          "Target": {
+			            "Entity": "medida.entity__pressão__CMV"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__pressão__CMV"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__pressão__CMV"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__pressão__CMV": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__pressão__CMV": {
+			          "Target": {
+			            "Entity": "medida.entity__pressão__CMV"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__pressão__CMV"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__pressão__CMV"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__idc_de_pressao_de_estoque": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__idc_de_pressao_de_estoque": {
+			          "Target": {
+			            "Entity": "medida.entity__idc_de_pressao_de_estoque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__idc_de_pressao_de_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__idc_de_pressao_de_estoque"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__idc_de_pressao_de_estoque": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__idc_de_pressao_de_estoque": {
+			          "Target": {
+			            "Entity": "medida.entity__idc_de_pressao_de_estoque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__idc_de_pressao_de_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__idc_de_pressao_de_estoque"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_cor_quadrante_giro_e_estoque_medio": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.cor_quadrante_giro_e_estoque_medio": {
+			          "Target": {
+			            "Entity": "medida.cor_quadrante_giro_e_estoque_medio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_quadrante_giro_e_estoque_medio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_cor_quadrante_giro_e_estoque_medio"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_cor_quadrante_giro_e_estoque_medio": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.cor_quadrante_giro_e_estoque_medio": {
+			          "Target": {
+			            "Entity": "medida.cor_quadrante_giro_e_estoque_medio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_quadrante_giro_e_estoque_medio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_cor_quadrante_giro_e_estoque_medio"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__giro_de_estoque_anual_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__giro_de_estoque_anual_valor": {
+			          "Target": {
+			            "Entity": "medida.entity__giro_de_estoque_anual_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__giro_de_estoque_anual_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__giro_de_estoque_anual_valor"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__giro_de_estoque_anual_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__giro_de_estoque_anual_valor": {
+			          "Target": {
+			            "Entity": "medida.entity__giro_de_estoque_anual_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__giro_de_estoque_anual_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__giro_de_estoque_anual_valor"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__cmv_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__cmv_anual": {
+			          "Target": {
+			            "Entity": "medida.entity__cmv_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__cmv_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__cmv_anual"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__cmv_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__cmv_anual": {
+			          "Target": {
+			            "Entity": "medida.entity__cmv_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__cmv_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__cmv_anual"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__estoque_medio_valor_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__estoque_medio_valor_anual": {
+			          "Target": {
+			            "Entity": "medida.entity__estoque_medio_valor_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__estoque_medio_valor_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__estoque_medio_valor_anual"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__custo_direto": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__custo_direto": {
+			          "Target": {
+			            "Entity": "medida.entity__custo_direto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__custo_direto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__custo_direto"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__margem_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__margem_pct": {
+			          "Target": {
+			            "Entity": "medida.entity__margem_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__margem_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__margem_pct"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_data_recebimento": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.data_recebimento": {
+			          "Target": {
+			            "Entity": "fato_venda.data_recebimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.data_recebimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_data_recebimentos"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_categoria_grupos": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.categoria_grupos": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.categoria_grupos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.categoria_grupos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_categoria_grupos"
+			        }
+			      ]
+			    },
+			    "indicadore_has_kpi": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicadore": {
+			          "Target": {
+			            "Entity": "indicadore"
+			          }
+			        },
+			        "indicadore.kpi": {
+			          "Target": {
+			            "Entity": "indicadore.kpi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicadore"
+			            },
+			            "Object": {
+			              "Role": "indicadore.kpi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicadores_have_kpis"
+			        }
+			      ]
+			    },
+			    "indicadore_has_limite": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicadore": {
+			          "Target": {
+			            "Entity": "indicadore"
+			          }
+			        },
+			        "indicadore.limite": {
+			          "Target": {
+			            "Entity": "indicadore.limite"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicadore"
+			            },
+			            "Object": {
+			              "Role": "indicadore.limite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicadores_have_limites"
+			        }
+			      ]
+			    },
+			    "indicadore_has_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicadore": {
+			          "Target": {
+			            "Entity": "indicadore"
+			          }
+			        },
+			        "indicadore.ordem": {
+			          "Target": {
+			            "Entity": "indicadore.ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicadore"
+			            },
+			            "Object": {
+			              "Role": "indicadore.ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicadores_have_ordems"
+			        }
+			      ]
+			    },
+			    "glossario_de_medida_has_metrica": {
+			      "Binding": {
+			        "ConceptualEntity": "glossario_de_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "glossario_de_medida": {
+			          "Target": {
+			            "Entity": "glossario_de_medida"
+			          }
+			        },
+			        "glossario_de_medida.metrica": {
+			          "Target": {
+			            "Entity": "glossario_de_medida.metrica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "glossario_de_medida"
+			            },
+			            "Object": {
+			              "Role": "glossario_de_medida.metrica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "glossario_de_medidas_have_metricas"
+			        }
+			      ]
+			    },
+			    "glossario_de_medida_has_nome_medida": {
+			      "Binding": {
+			        "ConceptualEntity": "glossario_de_medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "glossario_de_medida": {
+			          "Target": {
+			            "Entity": "glossario_de_medida"
+			          }
+			        },
+			        "glossario_de_medida.nome_medida": {
+			          "Target": {
+			            "Entity": "glossario_de_medida.nome_medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "glossario_de_medida"
+			            },
+			            "Object": {
+			              "Role": "glossario_de_medida.nome_medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "glossario_de_medidas_have_nome_medidas"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__caixa_evolucao_": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__caixa_evolucao_": {
+			          "Target": {
+			            "Entity": "medida.entity__caixa_evolucao_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__caixa_evolucao_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__caixa_evolucao_"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__margem_evolucao_aa_": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__margem_evolucao_aa_": {
+			          "Target": {
+			            "Entity": "medida.entity__margem_evolucao_aa_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__margem_evolucao_aa_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__margem_evolucao_aa_"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_cor_dias_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.cor_dias_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.cor_dias_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_dias_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_cor_dias_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_cor_dias_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.cor_dias_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.cor_dias_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_dias_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_cor_dias_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__dias_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__dias_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.entity__dias_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__dias_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__dias_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__dias_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__dias_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.entity__dias_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__dias_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__dias_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_margem_de_contribuicao": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.margem_de_contribuicao": {
+			          "Target": {
+			            "Entity": "medida.margem_de_contribuicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.margem_de_contribuicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_margem_de_contribuicao"
+			        }
+			      ]
+			    },
+			    "medida_has_rank_mes": {
+			      "Binding": {
+			        "ConceptualEntity": "medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.rank_mes": {
+			          "Target": {
+			            "Entity": "medida.rank_mes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.rank_mes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_rank_mes"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__giro_de_estoque_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__giro_de_estoque_valor": {
+			          "Target": {
+			            "Entity": "medida.entity__giro_de_estoque_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__giro_de_estoque_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__giro_de_estoque_valor"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__giro_de_estoque_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__giro_de_estoque_valor": {
+			          "Target": {
+			            "Entity": "medida.entity__giro_de_estoque_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__giro_de_estoque_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__giro_de_estoque_valor"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_medida_entity__estoque_medio_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "medida.entity__estoque_medio_valor": {
+			          "Target": {
+			            "Entity": "medida.entity__estoque_medio_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__estoque_medio_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have__estoque_medio_valor"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_indicador_selecionado": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.indicador_selecionado": {
+			          "Target": {
+			            "Entity": "medida.indicador_selecionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.indicador_selecionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_indicador_selecionado"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_indicador_selecionado": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.indicador_selecionado": {
+			          "Target": {
+			            "Entity": "medida.indicador_selecionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.indicador_selecionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_indicador_selecionado"
+			        }
+			      ]
+			    },
+			    "indicadore_has_medida_indicador_selecionado": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicadore": {
+			          "Target": {
+			            "Entity": "indicadore"
+			          }
+			        },
+			        "medida.indicador_selecionado": {
+			          "Target": {
+			            "Entity": "medida.indicador_selecionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicadore"
+			            },
+			            "Object": {
+			              "Role": "medida.indicador_selecionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicadores_have_indicador_selecionado"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_cor_margem_de_geração_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.cor_margem_de_geração_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.cor_margem_de_geração_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_margem_de_geração_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_cor_margem_de_geração_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_cor_margem_de_geração_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.cor_margem_de_geração_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.cor_margem_de_geração_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.cor_margem_de_geração_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_cor_margem_de_geração_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__margem_de_geracao_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__margem_de_geracao_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.entity__margem_de_geracao_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__margem_de_geracao_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__margem_de_geracao_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__margem_de_geracao_de_caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__margem_de_geracao_de_caixa": {
+			          "Target": {
+			            "Entity": "medida.entity__margem_de_geracao_de_caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__margem_de_geracao_de_caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__margem_de_geracao_de_caixa"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__fluxo_negativo": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__fluxo_negativo": {
+			          "Target": {
+			            "Entity": "medida.entity__fluxo_negativo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__fluxo_negativo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__fluxo_negativo"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_medida_entity__caixa": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "medida.entity__caixa": {
+			          "Target": {
+			            "Entity": "medida.entity__caixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__caixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have__caixa"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__cmv": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__cmv": {
+			          "Target": {
+			            "Entity": "medida.entity__cmv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__cmv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__cmv"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__quantidade": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__quantidade": {
+			          "Target": {
+			            "Entity": "medida.entity__quantidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__quantidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__quantidade"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_medida_entity__faturamento": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "medida.entity__faturamento": {
+			          "Target": {
+			            "Entity": "medida.entity__faturamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "medida.entity__faturamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have__faturamento"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.trimestre": {
+			          "Target": {
+			            "Entity": "dim_calendario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_nome_do_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.nome_do_mê": {
+			          "Target": {
+			            "Entity": "dim_calendario.nome_do_mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.nome_do_mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_nome_do_mê"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_início_do_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.início_do_mê": {
+			          "Target": {
+			            "Entity": "dim_calendario.início_do_mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.início_do_mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_início_do_mê"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.ano": {
+			          "Target": {
+			            "Entity": "dim_calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.data": {
+			          "Target": {
+			            "Entity": "dim_calendario.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_data"
+			        }
+			      ]
+			    },
+			    "dim_vendedore_has_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_vendedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_vendedore": {
+			          "Target": {
+			            "Entity": "dim_vendedore"
+			          }
+			        },
+			        "dim_vendedore.vendedor": {
+			          "Target": {
+			            "Entity": "dim_vendedore.vendedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_vendedore"
+			            },
+			            "Object": {
+			              "Role": "dim_vendedore.vendedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_vendedores_have_vendedors"
+			        }
+			      ]
+			    },
+			    "dim_vendedore_has_vendedor_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_vendedores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_vendedore": {
+			          "Target": {
+			            "Entity": "dim_vendedore"
+			          }
+			        },
+			        "dim_vendedore.vendedor_id": {
+			          "Target": {
+			            "Entity": "dim_vendedore.vendedor_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_vendedore"
+			            },
+			            "Object": {
+			              "Role": "dim_vendedore.vendedor_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_vendedores_have_vendedor_ids"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_desconto_acrescimo": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.desconto_acrescimo": {
+			          "Target": {
+			            "Entity": "fato_venda.desconto_acrescimo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.desconto_acrescimo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_desconto_acrescimos"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_margem_contribuicao": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.margem_contribuicao": {
+			          "Target": {
+			            "Entity": "fato_venda.margem_contribuicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.margem_contribuicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_margem_contribuicaos"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_venda.margem_contribuicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "margem_contribuicao_indicates_how_expensive_fato_venda_are"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_prazo_recebimento_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.prazo_recebimento_dias": {
+			          "Target": {
+			            "Entity": "fato_venda.prazo_recebimento_dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.prazo_recebimento_dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_prazo_recebimento_dias"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_receita_bruta": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.receita_bruta": {
+			          "Target": {
+			            "Entity": "fato_venda.receita_bruta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.receita_bruta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_receita_brutas"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_venda.receita_bruta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "receita_bruta_indicates_how_expensive_fato_venda_are"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_custo_mercadoria": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.custo_mercadoria": {
+			          "Target": {
+			            "Entity": "fato_venda.custo_mercadoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.custo_mercadoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_custo_mercadorias"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_venda.custo_mercadoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "custo_mercadoria_indicates_how_expensive_fato_venda_are"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_preco_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.preco_unitario": {
+			          "Target": {
+			            "Entity": "fato_venda.preco_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.preco_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_preco_unitarios"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_venda.preco_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "preco_unitario_indicates_how_expensive_fato_venda_are"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_quantidade": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.quantidade": {
+			          "Target": {
+			            "Entity": "fato_venda.quantidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.quantidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_quantidades"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.categoria": {
+			          "Target": {
+			            "Entity": "fato_venda.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_categorias"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_linha": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.linha": {
+			          "Target": {
+			            "Entity": "fato_venda.linha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.linha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_linhas"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.data": {
+			          "Target": {
+			            "Entity": "fato_venda.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_data"
+			        }
+			      ]
+			    },
+			    "fato_venda_has_venda_id": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_venda": {
+			          "Target": {
+			            "Entity": "fato_venda"
+			          }
+			        },
+			        "fato_venda.venda_id": {
+			          "Target": {
+			            "Entity": "fato_venda.venda_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_venda"
+			            },
+			            "Object": {
+			              "Role": "fato_venda.venda_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_venda_have_venda_ids"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_custo_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "dim_produto.custo_unitario": {
+			          "Target": {
+			            "Entity": "dim_produto.custo_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "dim_produto.custo_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_custo_unitarios"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dim_produto.custo_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "custo_unitario_indicates_how_expensive_dim_produtos_are"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_preco_base": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "dim_produto.preco_base": {
+			          "Target": {
+			            "Entity": "dim_produto.preco_base"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "dim_produto.preco_base"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_preco_bases"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dim_produto.preco_base"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "preco_base_indicates_how_expensive_dim_produtos_are"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "dim_produto.categoria": {
+			          "Target": {
+			            "Entity": "dim_produto.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "dim_produto.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_categorias"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_linha": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "dim_produto.linha": {
+			          "Target": {
+			            "Entity": "dim_produto.linha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "dim_produto.linha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_linhas"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "dim_produto.produto": {
+			          "Target": {
+			            "Entity": "dim_produto.produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "dim_produto.produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_produtos"
+			        }
+			      ]
+			    },
+			    "dim_produto_has_produto_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produto": {
+			          "Target": {
+			            "Entity": "dim_produto"
+			          }
+			        },
+			        "dim_produto.produto_id": {
+			          "Target": {
+			            "Entity": "dim_produto.produto_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produto"
+			            },
+			            "Object": {
+			              "Role": "dim_produto.produto_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produtos_have_produto_ids"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_início_do_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.início_do_mê": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.início_do_mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.início_do_mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_início_do_mê"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_fluxo_liquido": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.fluxo_liquido": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.fluxo_liquido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.fluxo_liquido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_fluxo_liquidos"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_fluxo_caixa.fluxo_liquido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fluxo_liquido_indicates_how_expensive_fato_fluxo_caixas_are"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_descricao": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.descricao": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.descricao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.descricao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_descricaos"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.valor": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_valor"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_fluxo_caixa.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "valor_indicates_how_expensive_fato_fluxo_caixas_are"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.categoria": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_categorias"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_tipo": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.tipo": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.tipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.tipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_tipos"
+			        }
+			      ]
+			    },
+			    "fato_fluxo_caixa_has_data_movimento": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_fluxo_caixa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_fluxo_caixa": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa"
+			          }
+			        },
+			        "fato_fluxo_caixa.data_movimento": {
+			          "Target": {
+			            "Entity": "fato_fluxo_caixa.data_movimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_fluxo_caixa"
+			            },
+			            "Object": {
+			              "Role": "fato_fluxo_caixa.data_movimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_fluxo_caixas_have_data_movimentos"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_valor_estoque": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "fato_estoque_mensal.valor_estoque": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal.valor_estoque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal.valor_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_valor_estoques"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fato_estoque_mensal.valor_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "valor_estoque_indicates_how_expensive_fato_estoque_mensal_are"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_quantidade_estoque": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "fato_estoque_mensal.quantidade_estoque": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal.quantidade_estoque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal.quantidade_estoque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_quantidade_estoques"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "fato_estoque_mensal.categoria": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_categorias"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_linha": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "fato_estoque_mensal.linha": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal.linha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal.linha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_linhas"
+			        }
+			      ]
+			    },
+			    "fato_estoque_mensal_has_data_snapshot": {
+			      "Binding": {
+			        "ConceptualEntity": "fato_estoque_mensal"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_estoque_mensal": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal"
+			          }
+			        },
+			        "fato_estoque_mensal.data_snapshot": {
+			          "Target": {
+			            "Entity": "fato_estoque_mensal.data_snapshot"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_estoque_mensal"
+			            },
+			            "Object": {
+			              "Role": "fato_estoque_mensal.data_snapshot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_estoque_mensal_have_data_snapshots"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

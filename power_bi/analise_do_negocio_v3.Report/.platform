@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "analise_do_negocio_v3"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "92fa3476-33e9-4d77-9d85-51b669de0bd5"
+  }
+}

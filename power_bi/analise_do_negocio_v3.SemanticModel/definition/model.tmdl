@@ -1,0 +1,35 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup dim
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup fato
+
+	annotation PBI_QueryGroupOrder = 1
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["fato_estoque_mensal","fato_fluxo_caixa","dim_mercado_bcg","dim_produtos","fato_vendas","dim_vendedores","dim_calendario","medidas","glossario_de_medidas"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table fato_estoque_mensal
+ref table fato_fluxo_caixa
+ref table dim_produtos
+ref table fato_vendas
+ref table dim_vendedores
+ref table dim_calendario
+ref table medidas
+ref table glossario_de_medidas
+ref table Indicadores
+
+ref cultureInfo pt-BR
+

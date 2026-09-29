@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "e21de6dbb5d830062e75",
+  "displayName": "Vendas",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "df2325a280ce64cad5b4",
+      "target": "ed25396fb7040410e99d",
+      "type": "DataFilter"
+    },
+    {
+      "source": "df2325a280ce64cad5b4",
+      "target": "b168c12f211b0840410a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "df2325a280ce64cad5b4",
+      "target": "664d201a82381e203a91",
+      "type": "DataFilter"
+    },
+    {
+      "source": "df2325a280ce64cad5b4",
+      "target": "53a65454d8419a089152",
+      "type": "DataFilter"
+    },
+    {
+      "source": "df2325a280ce64cad5b4",
+      "target": "76a5523327b6b750220d",
+      "type": "DataFilter"
+    }
+  ]
+}

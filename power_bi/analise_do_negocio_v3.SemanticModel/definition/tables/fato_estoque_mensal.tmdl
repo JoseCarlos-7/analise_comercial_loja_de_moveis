@@ -1,0 +1,73 @@
+table fato_estoque_mensal
+	lineageTag: 8c807fe1-1e1d-4101-9412-0f7e130dec82
+
+	column data_snapshot
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 08e6a936-c6a2-422d-ba23-d947e2f56587
+		summarizeBy: none
+		sourceColumn: data_snapshot
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column produto_id
+		dataType: string
+		lineageTag: d5d6e81f-0ebf-4e02-a125-7506034132e0
+		summarizeBy: none
+		sourceColumn: produto_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column linha
+		dataType: string
+		lineageTag: b3e854b6-7a59-4bc6-aea6-aecbfb18f48c
+		summarizeBy: none
+		sourceColumn: linha
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: 9a755f7a-57f2-4809-a179-bd8dcd959566
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade_estoque
+		dataType: int64
+		formatString: 0
+		lineageTag: 80a223e8-f1a5-4e20-8a3d-db91d667a84b
+		summarizeBy: sum
+		sourceColumn: quantidade_estoque
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_estoque
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 3109666e-00b4-474d-9bd2-25a44884e8ce
+		summarizeBy: sum
+		sourceColumn: valor_estoque
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	partition fato_estoque_mensal = m
+		mode: import
+		queryGroup: fato
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\estoque_mensal.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"data_snapshot", type date}, {"produto_id", type text}, {"linha", type text}, {"categoria", type text}, {"quantidade_estoque", Int64.Type}, {"valor_estoque", Currency.Type}}, "en-US")
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Exception
+

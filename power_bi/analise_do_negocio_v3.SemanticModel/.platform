@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "analise_do_negocio_v3"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "022216a5-1738-417b-8ef0-d91c78f708ea"
+  }
+}

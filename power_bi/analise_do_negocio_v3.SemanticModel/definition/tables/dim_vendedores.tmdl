@@ -1,0 +1,34 @@
+table dim_vendedores
+	lineageTag: e1e82d5d-019c-40c0-8150-119026ddddc6
+
+	column vendedor_id
+		dataType: string
+		lineageTag: 2e71961e-f894-4b8f-8b6f-90e2182138d3
+		summarizeBy: none
+		sourceColumn: vendedor_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column vendedor
+		dataType: string
+		lineageTag: 4c88ed57-aefb-4e1e-b704-5f9a3b5247c2
+		summarizeBy: none
+		sourceColumn: vendedor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_vendedores = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\vendedores.csv"),[Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"vendedor_id", type text}, {"vendedor", type text}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

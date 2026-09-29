@@ -1,0 +1,72 @@
+table dim_produtos
+	lineageTag: 9fd79037-a29d-409a-9758-d919a1f52d1e
+
+	column produto_id
+		dataType: string
+		lineageTag: 3200c2e1-2e0c-4709-8ca9-ac6f2a0f3a9a
+		summarizeBy: none
+		sourceColumn: produto_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column produto
+		dataType: string
+		lineageTag: c60ff91d-5edf-4e3f-9f56-941f7a79431b
+		summarizeBy: none
+		sourceColumn: produto
+
+		annotation SummarizationSetBy = Automatic
+
+	column linha
+		dataType: string
+		lineageTag: 5ac44f21-a4c4-44c0-b7b9-ba69a9ad9ef0
+		summarizeBy: none
+		sourceColumn: linha
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: 88e26b56-5c8c-42f8-82cb-4d56f4c7a457
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column preco_base
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: f8cec5f4-432a-4763-8093-acf716b1481b
+		summarizeBy: sum
+		sourceColumn: preco_base
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column custo_unitario
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 24a234f7-6565-455f-923e-c8d52feefbc1
+		summarizeBy: sum
+		sourceColumn: custo_unitario
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	partition dim_produtos = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\produtos.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"produto_id", type text}, {"produto", type text}, {"linha", type text}, {"categoria", type text}, {"preco_base", Currency.Type}, {"custo_unitario", Currency.Type}},"en-US")
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

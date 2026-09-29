@@ -1,0 +1,74 @@
+table dim_calendario
+	lineageTag: 69a97cac-6c43-4245-ba13-55cf05540384
+
+	column data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 0fa30f5b-6592-4b46-a2e0-60b8dd6224af
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: a0fc3c72-615b-43fc-bf63-ca5541dac01d
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Início do Mês'
+		dataType: dateTime
+		formatString: yyyy-mm
+		lineageTag: 3c1d7aeb-a1ed-4a65-ae85-6d179cdeff3a
+		summarizeBy: none
+		sourceColumn: Início do Mês
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column 'Nome do Mês'
+		dataType: string
+		lineageTag: 6f3e94c5-5105-484e-9c3e-fdd3caa376a6
+		summarizeBy: none
+		sourceColumn: Nome do Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: int64
+		formatString: 0
+		lineageTag: d25b1fd9-4992-4727-8a84-86e966157383
+		summarizeBy: sum
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_calendario = m
+		mode: import
+		queryGroup: dim
+		source =
+				let
+				    Fonte = List.Dates(#date(2024, 01, 01),1096, #duration(1,0,0,0)),
+				    #"Convertido para Tabela" = Table.FromList(Fonte, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Convertido para Tabela",{{"Column1", "data"}}),
+				    #"Ano Inserido" = Table.AddColumn(#"Colunas Renomeadas", "Ano", each Date.Year([data]), Int64.Type),
+				    #"Início do Mês Inserido" = Table.AddColumn(#"Ano Inserido", "Início do Mês", each Date.StartOfMonth([data]), type date),
+				    #"Nome do Mês Inserido" = Table.AddColumn(#"Início do Mês Inserido", "Nome do Mês", each Date.MonthName([Início do Mês]), type text),
+				    #"Trimestre Inserido" = Table.AddColumn(#"Nome do Mês Inserido", "Trimestre", each Date.QuarterOfYear([Início do Mês]), Int64.Type),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Trimestre Inserido",{{"data", type date}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Tipo Alterado", each [Início do Mês] < #date(2026, 10, 1))
+				in
+				    #"Linhas Filtradas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

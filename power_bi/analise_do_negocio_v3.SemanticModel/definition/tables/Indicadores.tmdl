@@ -1,0 +1,49 @@
+table Indicadores
+	lineageTag: 3bbfbdf3-cdb7-43ce-9ee4-af54b19c0fad
+
+	column Ordem
+		formatString: 0
+		lineageTag: 228f496a-cf9c-4462-9bf5-ce70052ba42f
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Ordem]
+
+		annotation SummarizationSetBy = Automatic
+
+	column limite
+		lineageTag: 9931647d-1848-49fd-b35a-4f3e6edc6c12
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [limite]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column KPI
+		lineageTag: b8f550e5-3174-482d-a4d5-51b14be8f92b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [KPI]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Indicadores = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE(
+				    "KPI", STRING,
+				    "Ordem", INTEGER,
+				    "limite", DOUBLE,
+				    {
+				        {"margem de geracao de caixa",1,1.0},
+				        {"ROI",2,1.0}
+				        
+				    }
+				  
+				)
+				```
+
+	annotation PBI_Id = c9778fb10cb147919a84e801a4073b73
+

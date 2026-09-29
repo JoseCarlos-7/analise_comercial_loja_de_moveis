@@ -1,0 +1,479 @@
+table medidas
+	lineageTag: e949634f-d861-4a40-9412-53ad2bc35feb
+
+	measure receita = SUMX(fato_vendas,fato_vendas[receita_bruta])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: receita
+		lineageTag: e6f6e6c6-f30c-461d-9e82-d030eeae6694
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure volume = SUM(fato_vendas[quantidade])
+		formatString: 0
+		displayFolder: volumetria
+		lineageTag: 996de8b9-1e6f-4c9c-b470-be1cccc606ff
+
+	measure cmv = ```
+			SUMX(fato_vendas,fato_vendas[quantidade]*(fato_vendas[custo_mercadoria]/fato_vendas[quantidade])) 
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: custo
+		lineageTag: 61265e27-00d4-486d-8cd2-919f0ba64f27
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure caixa = sum(fato_fluxo_caixa[fluxo_liquido])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: fluxo_de_caixa
+		lineageTag: 4f1e4538-c3c2-4ef5-9b9c-d25e488730e7
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'fluxo negativo' = CALCULATE([caixa],fato_fluxo_caixa[tipo]="saida")
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: fluxo_de_caixa
+		lineageTag: 4c642234-e884-4480-b190-02aed328ad9e
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'margem de geracao de caixa' = DIVIDE([caixa],[receita])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: KPI
+		lineageTag: 55804d78-f147-4b3e-b3d2-9f3ac2fdbdb4
+
+	measure 'Cor margem de geração de caixa' =
+			
+			var limite = 0.15
+			RETURN SWITCH(
+			    TRUE(),
+			    [margem de geracao de caixa] >= limite*2, "#07E821",
+			    [margem de geracao de caixa] >= limite, "#FFEA7F",
+			    [margem de geracao de caixa] < limite, "#ED1717",
+			    [margem de geracao de caixa] = 0, "#FFFFFF",
+			    "#055913"
+			)
+		displayFolder: controle_de_visuais
+		lineageTag: 4230fa01-e3c4-4414-839a-c8beea4399d2
+
+	measure 'Indicador Selecionado' = ```
+			
+			
+			VAR indicador =
+			    SELECTEDVALUE(Indicadores[KPI])
+			
+			RETURN
+			
+			SWITCH(
+			    indicador,
+			
+			    
+			    "margem de geracao de caixa", [margem de geracao de caixa],
+			
+			    0
+			)
+			```
+		formatString: 0
+		displayFolder: controle_de_visuais
+		lineageTag: 9c8e93bd-2ccf-4a4f-bb2b-40034050174f
+
+	measure 'estoque medio valor' = ```
+			
+			var estoque_inicial = 
+			CALCULATE(SUMX(fato_estoque_mensal,fato_estoque_mensal[valor_estoque]),DATEADD(dim_calendario[Início do Mês],-1,MONTH))
+			var estoque_final = 
+			CALCULATE(SUMX(fato_estoque_mensal,fato_estoque_mensal[valor_estoque]))
+			var estoque_medio = (estoque_inicial + estoque_final)/2
+			RETURN estoque_medio
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: estoque
+		lineageTag: f2cfcf65-0d41-45aa-a075-f9ff47705bb5
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'giro de estoque valor' = ROUNDUP(CALCULATE(DIVIDE([cmv],[estoque medio valor]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])),2)
+		displayFolder: estoque
+		lineageTag: 4c3f438d-7515-4dd2-b307-95ac8cd13b91
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure rank_mes =
+			
+			RANKX(
+			    ALLSELECTED(dim_calendario[Início do Mês]),
+			    STARTOFMONTH(dim_calendario[Início do Mês]),
+			    ,
+			    ASC,
+			    Dense
+			)
+		formatString: 0
+		displayFolder: auxiliares
+		lineageTag: dd5e944a-2dfd-4b77-b0ba-d4e6ba0dbd2c
+
+	measure margem_de_contribuicao = [receita] - [cmv]
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: KPI
+		lineageTag: 51a39e61-b6ca-4c11-aa96-be376ffd0bf3
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'dias de caixa' =
+			
+			VAR cmv = SUMX(fato_vendas,fato_vendas[custo_mercadoria])
+			VAR caixa = SUM(fato_fluxo_caixa[fluxo_liquido])
+			VAR dias_caixa = DIVIDE(caixa,(cmv/30))
+			RETURN dias_caixa
+		displayFolder: fluxo_de_caixa
+		lineageTag: 5115149c-2a4f-462a-abae-a40381d01e91
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cor dias_de_caixa' =
+			
+			var limite = 20
+			RETURN SWITCH(
+			    TRUE(),
+			    [dias de caixa] >= (limite*1.5), "#07E821",
+			    [dias de caixa] >= limite, "#FFEA7F",
+			    [dias de caixa] < limite, "#FF9900",
+			    [dias de caixa] <= 0, "#ED1717",
+			
+			    "#055913"
+			)
+		displayFolder: controle_de_visuais
+		lineageTag: 6da317a6-13d4-4e6a-a449-ceea1056f56a
+
+	measure 'margem evolucao aa %' =
+			
+			var margem_aa = CALCULATE([margem_de_contribuicao],SAMEPERIODLASTYEAR(dim_calendario[Início do Mês]),ALL())
+			RETURN DIVIDE(([margem_de_contribuicao]-margem_aa),margem_aa)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: KPI
+		lineageTag: 9a0c72f4-bdaf-43a8-991e-c1a1c9d041c6
+
+	measure 'caixa evolucao %' =
+			
+			var caixa_aa = CALCULATE([caixa],SAMEPERIODLASTYEAR(dim_calendario[Início do Mês]),ALL())
+			RETURN DIVIDE(([caixa]-caixa_aa),caixa_aa)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: fluxo_de_caixa
+		lineageTag: 893220ef-939c-4c66-bc9b-bb661b27a4f2
+
+	measure 'margem pct' = DIVIDE([margem_de_contribuicao],[receita])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: KPI
+		lineageTag: e1d422f0-611c-4701-af35-513f3058f90a
+
+	measure 'custo direto' = abs(CALCULATE([fluxo negativo],fato_fluxo_caixa[categoria]="Compra de estoque"))
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: custo
+		lineageTag: fc4cb087-3a18-4c2c-8eb8-8280e7b9e8ea
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'estoque medio valor anual' = ```
+			
+			var meses = CALCULATE(DISTINCTCOUNT(fato_estoque_mensal[data_snapshot]),ALLEXCEPT(dim_calendario,dim_calendario[Ano]))
+			var em = CALCULATE(SUM(fato_estoque_mensal[valor_estoque]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])) 
+			RETURN DIVIDE(em,meses)
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: estoque
+		lineageTag: f5a2db58-d38d-4d96-ac9e-f811e5f332ef
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'cmv anual' = ```
+			
+			var meses = CALCULATE(DISTINCTCOUNT(fato_estoque_mensal[data_snapshot]),ALLEXCEPT(dim_calendario,dim_calendario[Ano]))
+			
+			var cmv = CALCULATE(SUMX(fato_vendas,fato_vendas[quantidade]*(fato_vendas[custo_mercadoria]/fato_vendas[quantidade])),ALLEXCEPT(dim_calendario,dim_calendario[Ano])) 
+			
+			RETURN DIVIDE(cmv,meses)
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: custo
+		lineageTag: 7ff3a652-9532-4cdb-9e09-03a4713d5d3b
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'giro de estoque valor anual' = ROUNDUP(CALCULATE(DIVIDE([cmv anual],[estoque medio valor anual]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])),2)
+		displayFolder: estoque
+		lineageTag: 282108ec-97c6-458b-9a1d-1c0eb71ce872
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cor quadrante giro e estoque medio' = ```
+			
+			var ema = [estoque medio valor anual]
+			var giro = [giro de estoque valor anual]
+			RETURN SWITCH(
+			    TRUE(),
+			    and([estoque medio valor] <= ema, [giro de estoque valor] > giro), "#FFFFFF",
+			    and([estoque medio valor] <= ema, [giro de estoque valor] <= giro), "#E6E6E6",
+			    and([estoque medio valor] > ema, [giro de estoque valor] > giro), "#FFEA7F",
+			    and([estoque medio valor] > ema, [giro de estoque valor] <= giro), "#FF9900",
+			    
+			    "#055913"
+			)
+			```
+		displayFolder: controle_de_visuais
+		lineageTag: 815fdcb9-67f1-47a0-8af9-a388600a7bfc
+
+	measure 'idc de pressao de estoque' = ```
+			
+			var ema = [estoque medio valor anual]
+			var giro = [giro de estoque valor anual]
+			RETURN CALCULATE(DIVIDE(DIVIDE([estoque medio valor],ema),DIVIDE([giro de estoque valor anual],giro)),ALLEXCEPT(dim_calendario,dim_calendario[Ano]))
+			
+			```
+		displayFolder: KPI
+		lineageTag: c598c66d-5b15-48bc-8653-b404dfd7cd76
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'pressão × CMV' = ```
+			
+			[idc de pressao de estoque] * [cmv]
+			
+			
+			```
+		formatString: #,0
+		displayFolder: KPI
+		lineageTag: 99ecc39b-002f-46d7-b681-85fe3acab819
+
+	measure '% Acumulado (idc pressao cmv)' = ```
+			
+			VAR TotalGeral = 
+			    CALCULATE(
+			        [pressão × CMV],
+			        ALLSELECTED(dim_produtos[produto])
+			    )
+			RETURN
+			    DIVIDE([idc pressao cmv acumulada], TotalGeral)
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: pareto
+		lineageTag: 80be5ede-aa74-401d-a0f7-d9a0010ee2e3
+
+	measure 'rank idc produto' =
+			
+			RANKX(
+			    // CALCULATETABLE(ALLSELECTED(dim_produtos[produto]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])),
+			    ALLSELECTED(dim_produtos[produto]),
+			    [pressão × CMV],
+			    ,
+			    DESC,
+			    Dense
+			)
+		formatString: 0
+		displayFolder: pareto
+		lineageTag: 2c7e52b2-bfde-45dc-b52d-cca51fd96f25
+
+	measure 'idc pressao cmv acumulada' =
+			
+			VAR RankAtual = [rank idc produto]
+			RETURN
+			    SUMX(
+			        FILTER(
+			            ALLSELECTED(dim_produtos[produto]),
+			            [rank idc produto] <= RankAtual
+			        ),
+			        [pressão × CMV]
+			    )
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: pareto
+		lineageTag: c046d7a2-86ce-4b17-9f2c-f035ee2e5d0e
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'pressão × CMV visual' =
+			
+			var idc_cmv_tt = CALCULATE([idc de pressao de estoque] * [cmv],ALLSELECTED(dim_produtos[produto]))
+			RETURN DIVIDE(([idc de pressao de estoque] * [cmv]),idc_cmv_tt)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: KPI
+		lineageTag: 619e366d-5d81-418d-b515-7af3ac29602d
+
+	measure 'caixa sobre custo fixo' =
+			
+			var custo_fixo = ABS(CALCULATE([caixa],or(fato_fluxo_caixa[categoria] = "Aluguel",fato_fluxo_caixa[categoria] = "Folha")))
+			RETURN DIVIDE([caixa],custo_fixo)
+		formatString: #,0
+		displayFolder: KPI
+		lineageTag: 0f357d47-7315-4573-b0e5-ca561663dde8
+
+	measure margem_perdida_acrescida = CALCULATE(SUMX(fato_vendas,fato_vendas[desconto_acrescimo]*(fato_vendas[quantidade]*fato_vendas[preco_unitario])))
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: KPI
+		lineageTag: ca05c084-cfab-4d4d-83d3-1360b3d154ea
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Cor margem de contribuicao' =
+			
+			var limite = 0.10
+			RETURN SWITCH(
+			    TRUE(),
+			    [margem pct] >= limite*6, "#07E821",
+			    [margem pct] >= limite*4, "#FFFFFF",
+			    [margem pct] >= limite*2, "#CCCCCC",
+			    [margem pct] < limite, "#ED1717",
+			    [margem pct] <= 0, "#ED1717",
+			    "#055913"
+			)
+		displayFolder: controle_de_visuais
+		lineageTag: 4b860595-b440-4052-a14c-bfab4a3f8784
+
+	measure 'Cor margem de contribuicao valor' =
+			
+			var limite = 0
+			RETURN SWITCH(
+			    TRUE(),
+			    [margem_perdida_acrescida] > limite, "#07E821",
+			    [margem_perdida_acrescida] < limite, "#ED1717",
+			    [margem_perdida_acrescida] = 0, "#FFFFFF",
+			    "#055913"
+			)
+		displayFolder: controle_de_visuais
+		lineageTag: 1a697be7-e028-4fec-9e79-cc39a7a97143
+
+	measure margem_perdida = CALCULATE(SUMX(fato_vendas,fato_vendas[desconto_acrescimo]*(fato_vendas[quantidade]*fato_vendas[preco_unitario])),fato_vendas[desconto_acrescimo]<0)
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		displayFolder: KPI
+		lineageTag: 985d2636-70db-4f43-8401-9862127fd6f1
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'ticket medio' = DIVIDE([receita],[volume])
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		displayFolder: KPI
+		lineageTag: f8f74933-b6a2-4c7a-8493-2837fdc24a05
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'ticket medio moveis' = CALCULATE(DIVIDE([receita],[volume]),dim_produtos[linha]="Moveis Domesticos")
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		displayFolder: KPI
+		lineageTag: fe897c71-a345-4b50-bb9d-0433c938af14
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'ticket medio servicos' = CALCULATE(DIVIDE([receita],[volume]),dim_produtos[linha]="Servicos sob Demanda")
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		displayFolder: KPI
+		lineageTag: 9bfe00d5-765b-44be-9704-8297cda167fe
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure margem_acrescida = CALCULATE(SUMX(fato_vendas,fato_vendas[desconto_acrescimo]*(fato_vendas[quantidade]*fato_vendas[preco_unitario])),fato_vendas[desconto_acrescimo]>0)
+		formatString: "R$"\ #,0;-"R$"\ #,0;"R$"\ #,0
+		displayFolder: KPI
+		lineageTag: c4ba6650-107d-4d49-86af-f9e80fdda1cb
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'evolucao trimestral cmv' =
+			
+			var trimestre_anterior =
+			CALCULATE(
+			    [CMV],
+			    PREVIOUSQUARTER(dim_calendario[data])
+			)
+			RETURN DIVIDE(
+			    [CMV] - trimestre_anterior,
+			    trimestre_anterior
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: comparacao
+		lineageTag: f882da30-174e-4574-b43f-94b8326ec697
+
+	measure 'evolucao anual cmv' =
+			
+			var ano_anterior =
+			CALCULATE(
+			    [CMV],
+			    SAMEPERIODLASTYEAR(dim_calendario[data])
+			)
+			RETURN DIVIDE(
+			    [CMV] - ano_anterior,
+			    ano_anterior
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: comparacao
+		lineageTag: f838b4d6-5e4c-4ffa-9701-d37c5efee02d
+
+	measure 'evolucao trimestral receita' =
+			
+			var trimestre_anterior =
+			CALCULATE(
+			    [receita],
+			    PREVIOUSQUARTER(dim_calendario[data])
+			)
+			RETURN DIVIDE(
+			    [receita] - trimestre_anterior,
+			    trimestre_anterior
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: comparacao
+		lineageTag: 86fad46f-ba35-4730-80df-222b49183bbf
+
+	measure 'evolucao anual receita' =
+			
+			var ano_anterior =
+			CALCULATE(
+			    [receita],
+			    SAMEPERIODLASTYEAR(dim_calendario[data])
+			)
+			RETURN DIVIDE(
+			    [receita] - ano_anterior,
+			    ano_anterior
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: comparacao
+		lineageTag: 1dfc37fb-43cb-465b-a792-3c60cd9dbc46
+
+	measure 'evolucao anual margem' =
+			
+			var ano_anterior =
+			CALCULATE(
+			    [margem_de_contribuicao],
+			    SAMEPERIODLASTYEAR(dim_calendario[data])
+			)
+			RETURN DIVIDE(
+			    [margem_de_contribuicao] - ano_anterior,
+			    ano_anterior
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: comparacao
+		lineageTag: 73709d5f-225c-4d86-b149-8492b3372c36
+
+	measure 'evolucao anual caixa' =
+			
+			var ano_anterior =
+			CALCULATE(
+			    [caixa],
+			    SAMEPERIODLASTYEAR(dim_calendario[data])
+			)
+			RETURN DIVIDE(
+			    [caixa] - ano_anterior,
+			    ano_anterior
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: comparacao
+		lineageTag: 7c6e3940-ea43-4bbf-ab91-0c36d9b77bf8
+
+	partition medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

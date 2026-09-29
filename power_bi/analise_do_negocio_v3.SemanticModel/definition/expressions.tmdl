@@ -1,0 +1,14 @@
+expression dim_mercado_bcg =
+		let
+		    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\mercado_bcg.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+		    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"produto_id", type text}, {"produto", type text}, {"linha", type text}, {"crescimento_mercado_pct", type number}, {"participacao_empresa_pct", type number}, {"participacao_principal_concorrente_pct", type number}, {"participacao_relativa", type number}},"en-US")
+		in
+		    #"Tipo Alterado"
+	lineageTag: 3ebf7bc4-1b54-4891-b28f-76f5888dcae2
+	queryGroup: dim
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

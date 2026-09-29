@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "c9ceb174d2d804a8aaa1",
+  "position": {
+    "x": 610,
+    "y": 116,
+    "z": 3000,
+    "height": 944,
+    "width": 1290,
+    "tabOrder": 7000
+  },
+  "visualGroup": {
+    "displayName": "pressão de estoque",
+    "groupMode": "ScaleMode"
+  }
+}

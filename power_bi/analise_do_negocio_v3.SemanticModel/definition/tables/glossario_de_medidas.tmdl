@@ -1,0 +1,34 @@
+table glossario_de_medidas
+	lineageTag: e0a32cd1-1d77-479a-93ff-407f87b8f784
+
+	column nome_medida
+		dataType: string
+		lineageTag: 73838c53-8366-4e6c-9fbc-d00ebff31166
+		summarizeBy: none
+		sourceColumn: nome_medida
+
+		annotation SummarizationSetBy = Automatic
+
+	column metrica
+		dataType: string
+		lineageTag: 6e6f2eba-70dc-4cdc-b7bc-9613844c68e2
+		summarizeBy: none
+		sourceColumn: metrica
+
+		annotation SummarizationSetBy = Automatic
+
+	partition glossario_de_medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\medidas.csv"),[Delimiter=";", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Column1", type text}, {"Column2", type text}}),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Tipo Alterado", [PromoteAllScalars=true]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"nome_medida", type text}, {"metrica", type text}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

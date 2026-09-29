@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "da5d76b75d08dae60541",
+  "position": {
+    "x": 401.74473098573111,
+    "y": 39.812540908495876,
+    "z": 2000,
+    "height": 41.62220185888205,
+    "width": 168.29846838591439,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Faturamento",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#d9b300"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "db847291579076b2d78a"
+}

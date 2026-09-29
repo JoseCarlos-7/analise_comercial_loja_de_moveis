@@ -1,0 +1,130 @@
+table fato_fluxo_caixa
+	lineageTag: abd0380f-5749-4cb8-823c-67bb9ece7f75
+
+	column data_movimento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1baf3f47-0687-4a79-95af-954338c275a4
+		summarizeBy: none
+		sourceColumn: data_movimento
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column tipo
+		dataType: string
+		lineageTag: 8a5679ed-9fac-48cb-a9e4-c9ae704d26a4
+		summarizeBy: none
+		sourceColumn: tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: d1b2cc7f-93ec-40b1-85a3-0796e2012d7d
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"fato_fluxo_caixa","TableItemName":"categoria (grupos)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column valor
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: c8eccfeb-2b62-4d50-a01c-586912e1e88c
+		summarizeBy: sum
+		sourceColumn: valor
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column descricao
+		dataType: string
+		lineageTag: 3fdf0b80-5f14-4e00-b6a0-298ace8aa108
+		summarizeBy: none
+		sourceColumn: descricao
+
+		annotation SummarizationSetBy = Automatic
+
+	column fluxo_liquido
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 0a69cb66-93ef-4c18-a088-de4f05a869e3
+		summarizeBy: sum
+		sourceColumn: fluxo_liquido
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column 'Início do Mês'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: bcdb16ef-0595-4c5e-af83-ff5f80e76a3d
+		summarizeBy: none
+		sourceColumn: Início do Mês
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'categoria (grupos)' =
+			SWITCH(
+				TRUE,
+				ISBLANK('fato_fluxo_caixa'[categoria]),
+				"(Em branco)",
+				'fato_fluxo_caixa'[categoria] IN {"Compra de estoque"},
+				"custo direto",
+				'fato_fluxo_caixa'[categoria] IN {"Aluguel",
+					"Folha"},
+				"custo fixo",
+				'fato_fluxo_caixa'[categoria] IN {"Logistica",
+					"Marketing"},
+				"despesas adm",
+				'fato_fluxo_caixa'[categoria]
+			)
+		lineageTag: c88ca89f-66ae-4238-8edd-e504f07d27d8
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "fato_fluxo_caixa"
+				          }
+				        },
+				        "Property": "categoria"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"f","Entity":"fato_fluxo_caixa"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"f"}},"Property":"categoria"}}],"GroupItems":[{"DisplayName":"(Em branco)","BlankDefaultPlaceholder":true},{"DisplayName":"custo direto","Expression":{"In":{"Expressions":[{"Column":{"Expression":{"SourceRef":{"Source":"f"}},"Property":"categoria"}}],"Values":[[{"Literal":{"Value":"'Compra de estoque'"}}]]}}},{"DisplayName":"custo fixo","Expression":{"In":{"Expressions":[{"Column":{"Expression":{"SourceRef":{"Source":"f"}},"Property":"categoria"}}],"Values":[[{"Literal":{"Value":"'Aluguel'"}}],[{"Literal":{"Value":"'Folha'"}}]]}}},{"DisplayName":"despesas adm","Expression":{"In":{"Expressions":[{"Column":{"Expression":{"SourceRef":{"Source":"f"}},"Property":"categoria"}}],"Values":[[{"Literal":{"Value":"'Logistica'"}}],[{"Literal":{"Value":"'Marketing'"}}]]}}}]}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fato_fluxo_caixa = m
+		mode: import
+		queryGroup: fato
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\fluxo_caixa.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"data_movimento", type date}, {"tipo", type text}, {"categoria", type text}, {"valor", Currency.Type}, {"descricao", type text}, {"fluxo_liquido", Currency.Type}},"en-US"),
+				    #"Início do Mês Inserido" = Table.AddColumn(#"Tipo Alterado", "Início do Mês", each Date.StartOfMonth([data_movimento]), type date),
+				    #"Linhas Classificadas" = Table.Sort(#"Início do Mês Inserido",{{"data_movimento", Order.Descending}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Linhas Classificadas", each [data_movimento] < #date(2026, 10, 1))
+				in
+				    #"Linhas Filtradas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,174 @@
+table fato_vendas
+	lineageTag: 619f2caf-6e97-49fd-aced-0972f2ea9c76
+
+	column venda_id
+		dataType: string
+		lineageTag: f8930dc6-7e53-4aca-bfe7-480eb555dae8
+		summarizeBy: none
+		sourceColumn: venda_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6c9823bf-950b-4de3-a4a2-ed116d993db9
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column produto_id
+		dataType: string
+		lineageTag: b4f44902-acea-4766-a58e-153d2fef246a
+		summarizeBy: none
+		sourceColumn: produto_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column linha
+		dataType: string
+		lineageTag: ec8497ab-536c-4df6-9daf-8c8856664f49
+		summarizeBy: none
+		sourceColumn: linha
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: d6ddf4fc-d3d9-4d3a-941d-992a9ae65b5a
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column vendedor_id
+		dataType: string
+		lineageTag: 23ee7e92-c487-4455-85f7-236809327546
+		summarizeBy: none
+		sourceColumn: vendedor_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade
+		dataType: int64
+		formatString: 0
+		lineageTag: 078a1f3a-aa6f-46c5-ac2c-f7d8c9163787
+		summarizeBy: sum
+		sourceColumn: quantidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column preco_unitario
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 9b296e00-662b-426c-9029-b26726f47d34
+		summarizeBy: sum
+		sourceColumn: preco_unitario
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column custo_mercadoria
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 15f1e4ae-d608-472e-b8fb-30782082ed0e
+		summarizeBy: sum
+		sourceColumn: custo_mercadoria
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column receita_bruta
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: d1a57dca-a6e6-4d04-8d95-73892fd21176
+		summarizeBy: sum
+		sourceColumn: receita_bruta
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column prazo_recebimento_dias
+		dataType: int64
+		formatString: 0
+		lineageTag: bc35c5dc-7c58-429a-91e8-b0c96ee9fbe1
+		summarizeBy: sum
+		sourceColumn: prazo_recebimento_dias
+
+		annotation SummarizationSetBy = Automatic
+
+	column margem_contribuicao
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: ee09d9f9-2770-4193-9312-b8aca33a754f
+		summarizeBy: sum
+		sourceColumn: margem_contribuicao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column desconto_acrescimo = 1-DIVIDE((fato_vendas[preco_unitario]*fato_vendas[quantidade]),fato_vendas[receita_bruta])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 745f4afe-da36-4a1c-96ca-adec4949f92a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_recebimento =
+			
+			fato_vendas[data] + fato_vendas[prazo_recebimento_dias]
+		formatString: General Date
+		lineageTag: 4400fe73-e68e-44c5-b1ed-b656e6ae52de
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_recebimento =
+			SWITCH(
+			    TRUE(),
+			    fato_vendas[prazo_recebimento_dias] > 7, "À prazo",
+			    "À vista"
+			)
+		lineageTag: 8b696372-d410-4d76-9205-a61e214b54db
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column prazo =
+			SWITCH(
+			    TRUE(),
+			    fato_vendas[prazo_recebimento_dias] <= 7, "até 7 dias",
+			    fato_vendas[prazo_recebimento_dias] <= 15, "até 15 dias",
+			    fato_vendas[prazo_recebimento_dias] <= 30, "até 30 dias",
+			
+			
+			    "até 60 dias"
+			)
+		lineageTag: 7a750766-763d-4b65-8759-a69e43086d2e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fato_vendas = m
+		mode: import
+		queryGroup: fato
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\josec\Desktop\Moveis Trem Base\datasets\vendas.csv"),[Delimiter=",", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"venda_id", type text}, {"data", type date}, {"produto_id", type text}, {"linha", type text}, {"categoria", type text}, {"vendedor_id", type text}, {"quantidade", Int64.Type}, {"preco_unitario", Currency.Type}, {"custo_mercadoria", Currency.Type}, {"receita_bruta", Currency.Type}, {"prazo_recebimento_dias", Int64.Type}, {"margem_contribuicao", Currency.Type}},"en-US"),
+				    #"Linhas Classificadas" = Table.Sort(#"Tipo Alterado",{{"data", Order.Descending}})
+				in
+				    #"Linhas Classificadas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

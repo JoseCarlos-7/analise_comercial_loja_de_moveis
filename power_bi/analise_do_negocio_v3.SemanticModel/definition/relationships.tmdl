@@ -1,0 +1,29 @@
+relationship 7c458711-59a3-7624-4a21-36f937420013
+	fromColumn: fato_estoque_mensal.data_snapshot
+	toColumn: dim_calendario.data
+
+relationship c42a8179-5ae9-853c-d89b-11d7226d7e07
+	fromColumn: fato_vendas.data
+	toColumn: dim_calendario.data
+
+relationship 3df0226a-eb66-ecff-f249-b58c5067125b
+	fromColumn: fato_fluxo_caixa.data_movimento
+	toColumn: dim_calendario.data
+
+relationship 759c5a3e-a6b2-f116-05b2-35327115bf25
+	fromColumn: fato_vendas.produto_id
+	toColumn: dim_produtos.produto_id
+
+relationship d89b4a81-24ca-f5b6-a00d-9d1041918c5c
+	fromColumn: fato_estoque_mensal.produto_id
+	toColumn: dim_produtos.produto_id
+
+relationship AutoDetected_2a0edd5d-9d56-4d8c-851f-63acd55a9d74
+	fromColumn: fato_vendas.vendedor_id
+	toColumn: dim_vendedores.vendedor_id
+
+relationship fb6d97d9-b9fa-f68c-6689-65bb1674d329
+	isActive: false
+	fromColumn: fato_vendas.data_recebimento
+	toColumn: dim_calendario.data
+
