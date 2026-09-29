@@ -78,7 +78,8 @@ Embora essa primeira análise tenha oferecido uma descoberta valiosa, ainda havi
 Ao classificarmos estes produtos pelo CMV, notamos que a Poltrona tem baixa relevância. Para criar uma medida que também considerasse o CMV, foi criada a medida (pressão × CMV = 
 [idc de pressao de estoque] * [cmv]).
 
-Utilizando abordagem de Pareto, é possível visualizar automaticamente os produtos que causam maior pressão ponderada pelo capital imobilizado.
+Utilizando abordagem de Pareto, é possível visualizar automaticamente os produtos que causam maior pressão ponderada pelo capital imobilizado. <br>
+![alt text](imagens/analise_estoque.png)
 
 Com essa nova abordagem notamos que em 2026, os produtos mais pressionados com alto cmv são:
 Guarda-Roupa 6 Portas
@@ -86,6 +87,13 @@ Mesa de Reuniao
 Cama Queen
 
 *Nota-se que, embora pressionada, a poltrona tem o menor cmv do ano de 2026
+
+## Vendas
+Após análise, podemos verificar alguns pontos interessantes:
+Descontos concedidos: Um percentual de descontos concedidos pelos vendedores é de aproximadamente 5% ao longo dos três anos. <br>
+A margem de contribuição variou entre 48% e 52% ao longo dos três anos.
+
+![alt text](imagens/vendas.png)
 
 ## Conclusões
 
