@@ -113,11 +113,11 @@ Analisando o período completo, Ana, Elisa e Gisele performaram melhor. Consider
 Faturamento significa maior contribuição econômica?
 Sim, considerando as variáveis receita e margem, a correlação é forte. Porém quando observadas as variáveis receita e caixa, a correlação é fraca, mas também com tendência positiva.
 
-Iniciativas para aumentar o caixa disponível:
-Negociar melhores prazos de pagamento de fornecedores: Dado que a maior parte dos custos é composta de pagamento de fornecedores, e não temos na base a informação de quantos fornecedores, quais prazos de entrega e como é o contrato de fornecimento. Existe a possibilidade de selecionar adequadamente os fornecedores com objetivo de reduzir juros de financiamento, negociar prazos maiores ou reduzir preços.
+### Iniciativas para aumentar o caixa disponível:
+- Negociar melhores prazos de pagamento de fornecedores: Dado que a maior parte dos custos é composta de pagamento de fornecedores, e não temos na base a informação de quantos fornecedores, quais prazos de entrega e como é o contrato de fornecimento. Existe a possibilidade de selecionar adequadamente os fornecedores com objetivo de reduzir juros de financiamento, negociar prazos maiores ou reduzir preços.
 
-Incentivar entradas maiores dos clientes: Uma vez que 70% das vendas é recebida à prazo, pode-se realizar um estudo de elaticidade para verificar se os produtos críticos para o estoque teriam suas vendas sustentadas mesmo com entradas maiores.
+- Incentivar entradas maiores dos clientes: Uma vez que 70% das vendas é recebida à prazo, pode-se realizar um estudo de elaticidade para verificar se os produtos críticos para o estoque teriam suas vendas sustentadas mesmo com entradas maiores.
 
-Realizar promoções: Com o objetivo de aumentar o giro de estoque, seria uma possibilidade realizar queima de estoque. E realizar um estudo para saber se um ajuste no mix de produtos impactaria positivamente a operação.
+- Realizar promoções: Com o objetivo de aumentar o giro de estoque, seria uma possibilidade realizar queima de estoque. E realizar um estudo para saber se um ajuste no mix de produtos impactaria positivamente a operação.
 
 
