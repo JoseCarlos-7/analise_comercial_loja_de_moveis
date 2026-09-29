@@ -31,7 +31,7 @@ A direção percebe crescimento de vendas, mas não sabe:
 A **margem de geração de caixa *¹** permanece entre 35% e 37% ao longo do período disponível na base de fluxo de caixa, no entanto quando analisamos a capacidade de cobrir a operação usando o caixa, notamos que o valor é insuficiente para cobrir o **CMV *²** cobrindo em média 20 dias deste indicador. Foi observado também que os custos fixos (Aluguel e Folha) são cobertos de forma segura pelo caixa, em torno de 4 meses de cobertura a cada mês de caixa.
 O fato de possuir cobertura relativamente baixa do CMV indica que a operação é financiada, mas a falta de dados na base impossibilita a concluir se o financiamento é externo ou se a cobertura é dada exclusivamente por Contas a Receber. <br>
 
-*¹ margem de geracao de caixa = DIVIDE([caixa],[receita])
+*¹ margem de geracao de caixa = DIVIDE([caixa],[receita])<br>
 *² cmv = SUMX(fato_vendas,fato_vendas[quantidade]*(fato_vendas[custo_mercadoria]/fato_vendas[quantidade])) 
 
 ### Analisando a pressão de estoque.
@@ -81,17 +81,17 @@ Ao classificarmos estes produtos pelo CMV, notamos que a Poltrona tem baixa rele
 Utilizando abordagem de Pareto, é possível visualizar automaticamente os produtos que causam maior pressão ponderada pelo capital imobilizado. <br>
 ![alt text](imagens/analise_estoque.png)
 
-Com essa nova abordagem notamos que em 2026, os produtos mais pressionados com alto cmv são:
-Guarda-Roupa 6 Portas
-Mesa de Reuniao
-Cama Queen
+Com essa nova abordagem notamos que em 2026, os produtos mais pressionados com alto cmv são:<br>
+- Guarda-Roupa 6 Portas<br>
+- Mesa de Reuniao<br>
+- Cama Queen<br>
 
 *Nota-se que, embora pressionada, a poltrona tem o menor cmv do ano de 2026
 
 ## Vendas
 Após análise, podemos verificar alguns pontos interessantes:
 Descontos concedidos: Um percentual de descontos concedidos pelos vendedores é de aproximadamente 5% ao longo dos três anos. <br>
-A margem de contribuição variou entre 48% e 52% ao longo dos três anos.
+A margem de contribuição variou entre 48% e 52% ao longo dos três anos.<br>
 
 ![alt text](imagens/vendas.png)
 
@@ -102,10 +102,10 @@ Sim, está, mas em nível baixo em relação ao tamanho do negócio. O caixa é 
 O KPI [dias de caixa] cobre mais de 30 dias somente em Agosto/26. A margem de geração de caixa varia entre 34% e 40% ao longo dos 3 anos de operação. A combinação dos KPIs [dias de caixa] e [margem de geração de caixa] indicam que o negócio não gera caixa suficiente para cobrir a operação, apesar do faturamento crescente. <br>
 
 quais produtos consomem capital em estoque?
-O top 3 em 2026:
-Guarda-Roupa 6 Portas
-Mesa de Reuniao
-Cama Queen
+O top 3 em 2026:<br>
+- Guarda-Roupa 6 Portas
+- Mesa de Reuniao
+- Cama Queen
 
 Quais vendedores geram mais receita e margem?
 Analisando o período completo, Ana, Elisa e Gisele performaram melhor. Considerando 2026; Elisa, Carla e Ana.
