@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "9fa29cec228eb94c58ec",
   "position": {
     "x": 0,
@@ -42,11 +42,11 @@
                       "Entity": "medidas"
                     }
                   },
-                  "Property": "pressão × CMV visual"
+                  "Property": "idc de pressao de estoque"
                 }
               },
-              "queryRef": "medidas.Pressão × CMV visual",
-              "nativeQueryRef": "_Pressão × CMV visual"
+              "queryRef": "medidas.idc de pressao de estoque",
+              "nativeQueryRef": "idc de pressao de estoque"
             }
           ]
         },
@@ -222,52 +222,6 @@
         },
         {
           "properties": {
-            "showSeries": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "labelDisplayUnits": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            },
-            "labelPrecision": {
-              "expr": {
-                "Literal": {
-                  "Value": "1L"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#ffffff'"
-                    }
-                  }
-                }
-              }
-            },
-            "enableBackground": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "medidas.Pressão × CMV visual"
-          }
-        },
-        {
-          "properties": {
             "color": {
               "solid": {
                 "color": {
@@ -308,22 +262,7 @@
       ],
       "valueAxis": [
         {
-          "properties": {
-            "secStart": {
-              "expr": {
-                "Literal": {
-                  "Value": "0.1D"
-                }
-              }
-            },
-            "secEnd": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ]
     },

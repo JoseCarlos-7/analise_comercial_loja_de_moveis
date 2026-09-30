@@ -79,13 +79,13 @@ table medidas
 	measure 'estoque medio valor' = ```
 			
 			var estoque_inicial = 
-			CALCULATE(SUMX(fato_estoque_mensal,fato_estoque_mensal[valor_estoque]),DATEADD(dim_calendario[Início do Mês],-1,MONTH))
+			CALCULATE(SUMX(fato_estoque_mensal,fato_estoque_mensal[valor_estoque]),DATEADD(dim_calendario[Início do Mês],-1,MONTH),ALL(dim_calendario))
 			var estoque_final = 
 			CALCULATE(SUMX(fato_estoque_mensal,fato_estoque_mensal[valor_estoque]))
 			var estoque_medio = (estoque_inicial + estoque_final)/2
 			RETURN estoque_medio
 			```
-		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
 		displayFolder: estoque
 		lineageTag: f2cfcf65-0d41-45aa-a075-f9ff47705bb5
 
@@ -197,11 +197,10 @@ table medidas
 
 		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
 
-	measure 'giro de estoque valor anual' = ROUNDUP(CALCULATE(DIVIDE([cmv anual],[estoque medio valor anual]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])),2)
+	measure 'giro de estoque valor anual' = ROUND(CALCULATE(DIVIDE([cmv anual],[estoque medio valor anual]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])),4)*12
+		formatString: 0.0000
 		displayFolder: estoque
 		lineageTag: 282108ec-97c6-458b-9a1d-1c0eb71ce872
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure 'Cor quadrante giro e estoque medio' = ```
 			
@@ -224,7 +223,11 @@ table medidas
 			
 			var ema = [estoque medio valor anual]
 			var giro = [giro de estoque valor anual]
-			RETURN CALCULATE(DIVIDE(DIVIDE([estoque medio valor],ema),DIVIDE([giro de estoque valor anual],giro)),ALLEXCEPT(dim_calendario,dim_calendario[Ano]))
+			
+			RETURN DIVIDE(ema,giro)
+			// var ema = [estoque medio valor anual]
+			// var giro = [giro de estoque valor anual]
+			// RETURN CALCULATE(DIVIDE(DIVIDE([estoque medio valor],ema),DIVIDE([giro de estoque valor],giro)),ALLEXCEPT(dim_calendario,dim_calendario[Ano]))
 			
 			```
 		displayFolder: KPI
@@ -246,7 +249,7 @@ table medidas
 			
 			VAR TotalGeral = 
 			    CALCULATE(
-			        [pressão × CMV],
+			        [idc de pressao de estoque],
 			        ALLSELECTED(dim_produtos[produto])
 			    )
 			RETURN
@@ -259,9 +262,8 @@ table medidas
 	measure 'rank idc produto' =
 			
 			RANKX(
-			    // CALCULATETABLE(ALLSELECTED(dim_produtos[produto]),ALLEXCEPT(dim_calendario,dim_calendario[Ano])),
 			    ALLSELECTED(dim_produtos[produto]),
-			    [pressão × CMV],
+			    [idc de pressao de estoque],
 			    ,
 			    DESC,
 			    Dense
@@ -279,7 +281,7 @@ table medidas
 			            ALLSELECTED(dim_produtos[produto]),
 			            [rank idc produto] <= RankAtual
 			        ),
-			        [pressão × CMV]
+			        [idc de pressao de estoque]
 			    )
 		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
 		displayFolder: pareto
@@ -462,6 +464,27 @@ table medidas
 		formatString: 0.00%;-0.00%;0.00%
 		displayFolder: comparacao
 		lineageTag: 7c6e3940-ea43-4bbf-ab91-0c36d9b77bf8
+
+	measure '__giro referencia' =
+			
+			CALCULATE(
+			    DIVIDE([cmv anual], [estoque medio valor anual]),
+			    ALL(dim_produtos)
+			)
+		displayFolder: KPI
+		lineageTag: cc1e9f7b-5415-4441-9ecb-e53c11730f97
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '__estoque excedente' =
+			
+			VAR necessario = DIVIDE([cmv anual], [__giro referencia])
+			RETURN MAX(0, [estoque medio valor anual] - necessario)
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: KPI
+		lineageTag: 6a427025-ea4a-44ed-bc42-574323206800
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
 
 	partition medidas = m
 		mode: import

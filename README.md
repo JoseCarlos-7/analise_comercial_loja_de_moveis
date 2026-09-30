@@ -28,7 +28,7 @@ A direção percebe crescimento de vendas, mas não sabe:
 
 **Compras por linha de produto**: Não há na base de compras uma distinção entre compras para fabricação, moveis prontos, consultoria e projetos; sendo as saídas apresentadas apenas como compra de estoque. Como as linhas de Projetos e Consultoria são diferentes da linha de móveis prontos, a análise de caixa segmentada por categoria fica inviável. <br>
 
-## Investigando o financiamento externo da operação.
+## Cobertura de caixa e pressão sobre a operação.
 A **margem de geração de caixa *¹** permanece entre 35% e 37% ao longo do período disponível na base de fluxo de caixa, no entanto quando analisamos a capacidade de cobrir a operação usando o caixa, notamos que o valor é insuficiente para cobrir o **CMV *²** cobrindo em média 20 dias deste indicador. Foi observado também que os custos fixos (Aluguel e Folha) são cobertos de forma segura pelo caixa, em torno de 4 meses de cobertura a cada mês de caixa.
 O fato de possuir cobertura relativamente baixa do CMV indica que a operação é financiada, mas a falta de dados na base impossibilita a concluir se o financiamento é externo ou se a cobertura é dada exclusivamente por Contas a Receber. <br>
 

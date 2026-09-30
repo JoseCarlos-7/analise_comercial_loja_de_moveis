@@ -1,0 +1,125 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "2e5399651b2e002b1178",
+  "position": {
+    "x": 10.075599796651305,
+    "y": 0,
+    "z": 0,
+    "height": 463.47759064596005,
+    "width": 1656.4286065694746,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_produtos"
+                    }
+                  },
+                  "Property": "produto_id"
+                }
+              },
+              "queryRef": "dim_produtos.produto_id",
+              "nativeQueryRef": "produto_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_produtos"
+                    }
+                  },
+                  "Property": "produto"
+                }
+              },
+              "queryRef": "dim_produtos.produto",
+              "nativeQueryRef": "produto"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "medidas"
+                    }
+                  },
+                  "Property": "idc de pressao de estoque"
+                }
+              },
+              "queryRef": "medidas.idc de pressao de estoque",
+              "nativeQueryRef": "idc de pressao de estoque"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "medidas"
+                    }
+                  },
+                  "Property": "pressão × CMV"
+                }
+              },
+              "queryRef": "medidas.pressão × CMV",
+              "nativeQueryRef": "pressão × CMV"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "medidas"
+                    }
+                  },
+                  "Property": "estoque medio valor anual"
+                }
+              },
+              "queryRef": "medidas.estoque medio valor anual",
+              "nativeQueryRef": "estoque medio valor anual"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "medidas"
+                    }
+                  },
+                  "Property": "giro de estoque valor anual"
+                }
+              },
+              "queryRef": "medidas.giro de estoque valor anual",
+              "nativeQueryRef": "giro de estoque valor anual"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "medidas"
+                  }
+                },
+                "Property": "idc de pressao de estoque"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
